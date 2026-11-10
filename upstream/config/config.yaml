@@ -1,0 +1,148 @@
+# Central configuration. Paths are relative to the staged project root.
+project_root: .
+
+inputs:
+  input_dir: .            # scanned recursively for the manifest
+  manifest_scan: [raw, PPPJ8P_results, "Samples information for RNA-seq data.xlsx"]
+  worksheet: "Samples information for RNA-seq data.xlsx"
+  fastq_zip: raw/plasmidsaurus_reads.fastq.zip
+  vendor_bam_zip: PPPJ8P_results/plasmidsaurus_bam.zip
+  fastq_dir: inputs/fastq
+  vendor_bam_dir: inputs/vendor_bam
+  vendor_results: PPPJ8P_results
+
+references:
+  pn_v51:
+    dir: references/pn40024_v5.1
+    genome_fastas: [PN.fa, PN_T2T_chl.fa, PN_T2T_mit.fa]
+    gff3s: [PN_T2T.v5.1.gff3, PN_T2T_chl.gff3, PN_T2T_mit.gff3]
+  ensembl:
+    dir: references/ensembl_r62
+    genome: Vitis_vinifera.ASM3070453v1.dna.toplevel.fa.gz
+    gtf: Vitis_vinifera.ASM3070453v1.62.gtf.gz
+  chardonnay:
+    dir: references/chardonnay
+    source_hap1: /workdir/dgw65/HaplotypeCuration/Assemblies/EU_Vvini_Chardonnay.hap1.fasta.gz
+    source_hap2: /workdir/dgw65/HaplotypeCuration/Assemblies/EU_Vvini_Chardonnay.hap2.fasta.gz
+    helixer_features: /workdir/dgw65/HaplotypeCuration/02a.AssemblyAnnotation/helixer_features.tsv
+
+library:
+  read_length: 94
+  umi_length: 14
+  umi_separator: "_"
+  strandedness: 1          # featureCounts -s; verified in smoke test (see results/*/qc/strand_check.tsv)
+  vendor_input_already_filtered: false  # smoke test: delivered 20,080,729 reads vs vendor input 19,941,849
+fastp:
+  # Reproduces vendor post-fastp read count exactly for PPPJ8P_94 (results/smoke_test/fastp_variants.tsv)
+  args: "-x --cut_tail -q 15 -l 25"
+  threads: 6
+
+star:
+  threads: 16
+  mem_gb: 48
+  extra: "--outFilterIntronMotifs RemoveNoncanonical --outSAMattributes NH HI AS nM NM MD --outSAMstrandField None"
+
+umicollapse:
+  algo: dir
+  k: 1
+  java_mem: 24G
+
+featurecounts:
+  feature_types: "exon,three_prime_UTR"
+  primary_args: "-Q 255"                    # unique alignments only, no -M -> integer molecules
+  multimap_args: "-M --fraction -Q 1"       # reported separately; never fed to DESeq2
+  vendor_replica_args: "-M --fraction -O --fracOverlap 0.1 -Q 1"
+
+compute:
+  max_jobs: 3
+  max_cores: 48
+  slurm_partition: regular
+
+smoke_test_sample: PPPJ8P_94
+
+# Alignment genomes. all_samples: false => only the smoke-test sample is aligned.
+genomes:
+  pn_v51:            # PRIMARY: PN.fa chr01-19 (renamed) + MT + chl decoy contigs; v5.1 splice junctions
+    star_index: references/star/pn_v51
+    gtf: references/pn40024_v5.1/build/pn_v51.gtf
+    qc_countset: pn_v51
+    all_samples: true     # smoke_test targets name the smoke sample explicitly
+  pn_v51_nuc:        # nuclear-only index; organellar-sequence effect test (smoke sample only)
+    star_index: references/star/pn_v51_nuc
+    gtf: references/pn40024_v5.1/build/v51_nuclear.gtf
+    qc_countset: pn_v51_nuc
+    all_samples: false
+  pn_v51_chr00:      # sensitivity: + Grapedia T2T_ref chr00 (haplotig-like unplaced seq, 882 v5.1 genes)
+    star_index: references/star/pn_v51_chr00
+    gtf: references/pn40024_v5.1/build/pn_v51_chr00.gtf
+    qc_countset: pn_v51_chr00
+    all_samples: false
+  ensembl_r62:       # vendor reference; end-to-end pipeline calibration (smoke sample only)
+    star_index: references/star/ensembl_r62
+    gtf: references/ensembl_r62/build/ensembl_r62.gtf
+    qc_countset: ensembl_r62
+    all_samples: false
+
+  chard_hap1:        # SECONDARY: Chardonnay haplotype 1 (dgw65 assembly copy); splice junctions from Liftoff v5.1
+    star_index: references/star/chard_hap1
+    gtf: references/chardonnay/hap1/liftoff_v51.hap1.gtf
+    qc_countset: chard_hap1_liftoff
+    all_samples: true
+  chard_hap2:
+    star_index: references/star/chard_hap2
+    gtf: references/chardonnay/hap2/liftoff_v51.hap2.gtf
+    qc_countset: chard_hap2_liftoff
+    all_samples: true
+
+# Count sets: which BAMs (our dedup BAMs for `genome`, or the vendor's dedup BAMs) x which GTF.
+countsets:
+  pn_v51:
+    genome: pn_v51
+    gtf: references/pn40024_v5.1/build/pn_v51.gtf
+    feature_types: exon
+  pn_v51_nuc:
+    genome: pn_v51_nuc
+    gtf: references/pn40024_v5.1/build/v51_nuclear.gtf
+    feature_types: exon
+  pn_v51_chr00:
+    genome: pn_v51_chr00
+    gtf: references/pn40024_v5.1/build/pn_v51_chr00.gtf
+    feature_types: exon
+  ensembl_r62:
+    genome: ensembl_r62
+    gtf: references/ensembl_r62/build/ensembl_r62.gtf
+    feature_types: exon,three_prime_utr
+  chard_hap1_liftoff:        # projection-derived (provisional) v5.1 models on hap1; gene_id = v5.1 ID (+ _N for extra copies)
+    genome: chard_hap1
+    gtf: references/chardonnay/hap1/liftoff_v51.hap1.gtf
+    feature_types: exon
+  chard_hap1_helixer:        # dgw65 Helixer ab initio models on hap1 (unpublished, user-approved)
+    genome: chard_hap1
+    gtf: references/chardonnay/hap1/helixer.hap1.gtf
+    feature_types: exon
+  chard_hap2_liftoff:
+    genome: chard_hap2
+    gtf: references/chardonnay/hap2/liftoff_v51.hap2.gtf
+    feature_types: exon
+  chard_hap2_helixer:
+    genome: chard_hap2
+    gtf: references/chardonnay/hap2/helixer.hap2.gtf
+    feature_types: exon
+  vendorbam_ensembl_r62:     # calibration: vendor BAMs x vendor annotation (should equal vendor matrix)
+    bam_source: vendor
+    gtf: references/ensembl_r62/build/ensembl_r62.gtf
+    feature_types: exon,three_prime_utr
+  vendorbam_pn_v51:          # diagnostic recount-only route: vendor BAMs x v5.1 (CP seqids, identity-verified)
+    bam_source: vendor
+    gtf: references/pn40024_v5.1/build/pn_v51_ensembl_seqids.gtf
+    feature_types: exon
+
+design:
+  # User, 2026-10-14 (supersedes the earlier PI note that C1-C3 might differ between batches):
+  # "C1=C1, C2=C2, C3=C3. Plasmidsaurus wanted us to run the same samples between batches to catch
+  # batch effects." => 3 biological controls; batch-2 libraries 124-126 are bridging re-preps of 94-96.
+  # Controls collected at 24 h; other time contrasts are descriptive.
+  controls_confirmed: true
+  control_model: bridging_pairs # one of: bridging_pairs (3 samples x 2 batches) | independent
+  fdr: 0.05
+  lfc_threshold: 0           # user-selectable effect-size cutoff for 'significant' tables

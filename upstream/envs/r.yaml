@@ -1,0 +1,22 @@
+# Statistics / plotting environment. Locked spec: envs/r.lock.txt
+name: r
+channels: [conda-forge, bioconda]
+dependencies:
+  - r-base=4.4
+  - r-wgcna=1.74
+  - bioconductor-deseq2
+  - bioconductor-edger
+  - bioconductor-limma
+  - bioconductor-apeglm
+  - r-ashr
+  - bioconductor-complexheatmap
+  - bioconductor-rtracklayer
+  - bioconductor-genomicranges
+  - r-ggplot2
+  - r-pheatmap
+  - r-svglite
+  - r-data.table
+  - r-yaml
+  - r-ggrepel
+  - r-patchwork
+  - r-testthat

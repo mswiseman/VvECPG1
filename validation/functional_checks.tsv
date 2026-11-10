@@ -1,0 +1,58 @@
+check	passed
+Fixed replicated gene set has 106 genes	TRUE
+Positive-candidate background has 521 genes	TRUE
+Non-signature subset has 54 genes	TRUE
+Gene annotations unique by homolog/gene/term	TRUE
+Every annotation is in the shared measured universe	TRUE
+Every target gene belongs to positive background	TRUE
+Valid contingency table counts	TRUE
+All 32 planned enrichment families present	TRUE
+BH includes all terms outside_signature_vs_common BP gene	TRUE
+BH includes all terms outside_signature_vs_common BP homolog	TRUE
+BH includes all terms outside_signature_vs_common CC gene	TRUE
+BH includes all terms outside_signature_vs_common CC homolog	TRUE
+BH includes all terms outside_signature_vs_common KEGG gene	TRUE
+BH includes all terms outside_signature_vs_common KEGG homolog	TRUE
+BH includes all terms outside_signature_vs_common MF gene	TRUE
+BH includes all terms outside_signature_vs_common MF homolog	TRUE
+BH includes all terms outside_signature_vs_positive_candidates BP gene	TRUE
+BH includes all terms outside_signature_vs_positive_candidates BP homolog	TRUE
+BH includes all terms outside_signature_vs_positive_candidates CC gene	TRUE
+BH includes all terms outside_signature_vs_positive_candidates CC homolog	TRUE
+BH includes all terms outside_signature_vs_positive_candidates KEGG gene	TRUE
+BH includes all terms outside_signature_vs_positive_candidates KEGG homolog	TRUE
+BH includes all terms outside_signature_vs_positive_candidates MF gene	TRUE
+BH includes all terms outside_signature_vs_positive_candidates MF homolog	TRUE
+BH includes all terms replicated_vs_common BP gene	TRUE
+BH includes all terms replicated_vs_common BP homolog	TRUE
+BH includes all terms replicated_vs_common CC gene	TRUE
+BH includes all terms replicated_vs_common CC homolog	TRUE
+BH includes all terms replicated_vs_common KEGG gene	TRUE
+BH includes all terms replicated_vs_common KEGG homolog	TRUE
+BH includes all terms replicated_vs_common MF gene	TRUE
+BH includes all terms replicated_vs_common MF homolog	TRUE
+BH includes all terms replicated_vs_positive_candidates BP gene	TRUE
+BH includes all terms replicated_vs_positive_candidates BP homolog	TRUE
+BH includes all terms replicated_vs_positive_candidates CC gene	TRUE
+BH includes all terms replicated_vs_positive_candidates CC homolog	TRUE
+BH includes all terms replicated_vs_positive_candidates KEGG gene	TRUE
+BH includes all terms replicated_vs_positive_candidates KEGG homolog	TRUE
+BH includes all terms replicated_vs_positive_candidates MF gene	TRUE
+BH includes all terms replicated_vs_positive_candidates MF homolog	TRUE
+Hypergeometric agrees with exact Fisher GO:0006974	TRUE
+Supporting gene count GO:0006974	TRUE
+Hypergeometric agrees with exact Fisher GO:0006281	TRUE
+Supporting gene count GO:0006281	TRUE
+Hypergeometric agrees with exact Fisher GO:0006259	TRUE
+Supporting gene count GO:0006259	TRUE
+Conjunction p is maximum of dataset p values	TRUE
+Conjunction BH BP	TRUE
+Conjunction BH KEGG	TRUE
+Observed rank AUC independently reconstructed BP discovery	TRUE
+Observed set mean r BP discovery	TRUE
+Observed rank AUC independently reconstructed BP validation	TRUE
+Observed set mean r BP validation	TRUE
+Observed rank AUC independently reconstructed KEGG discovery	TRUE
+Observed set mean r KEGG discovery	TRUE
+Observed rank AUC independently reconstructed KEGG validation	TRUE
+Observed set mean r KEGG validation	TRUE

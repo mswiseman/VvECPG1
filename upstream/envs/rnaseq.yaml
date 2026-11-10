@@ -1,0 +1,30 @@
+# Core processing environment (Python + CLI tools). Locked spec: envs/rnaseq.lock.txt
+name: rnaseq
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - fastp=0.24.0
+  - star=2.7.11b
+  - samtools=1.21
+  - umicollapse=1.1.0
+  - subread=2.1.1
+  - fastqc=0.12.1
+  - multiqc
+  - minimap2=2.30
+  - blast
+  - diamond
+  - liftoff=1.6.3
+  - gffread
+  - seqkit
+  - bedtools
+  - pysam
+  - pandas
+  - numpy
+  - scipy
+  - openpyxl
+  - pyyaml
+  - matplotlib
+  - pytest
+  - pigz
+  - snakemake-minimal=8.*
+  - snakemake-executor-plugin-slurm

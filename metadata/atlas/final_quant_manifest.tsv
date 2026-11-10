@@ -1,0 +1,642 @@
+run	study	BioSample	final_tissue_class	used_primary	used_full_sensitivity	historical_B_used	historical_B_tissue	quantification
+DRR093288	PRJDB5807	SAMD00080995	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/DRR093288/quant.sf.gz
+DRR093289	PRJDB5807	SAMD00080996	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/DRR093289/quant.sf.gz
+DRR093290	PRJDB5807	SAMD00080997	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/DRR093290/quant.sf.gz
+DRR093291	PRJDB5807	SAMD00080998	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR093291/quant.sf.gz
+DRR093292	PRJDB5807	SAMD00080999	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR093292/quant.sf.gz
+DRR093293	PRJDB5807	SAMD00081000	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR093293/quant.sf.gz
+DRR093294	PRJDB5807	SAMD00081001	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/DRR093294/quant.sf.gz
+DRR093295	PRJDB5807	SAMD00081002	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/DRR093295/quant.sf.gz
+DRR093296	PRJDB5807	SAMD00081003	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/DRR093296/quant.sf.gz
+DRR093297	PRJDB5807	SAMD00081004	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR093297/quant.sf.gz
+DRR093298	PRJDB5807	SAMD00081005	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR093298/quant.sf.gz
+DRR093299	PRJDB5807	SAMD00081006	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR093299/quant.sf.gz
+DRR730320	PRJDB28507	SAMD01418375	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730320/quant.sf.gz
+DRR730321	PRJDB28507	SAMD01418376	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730321/quant.sf.gz
+DRR730322	PRJDB28507	SAMD01418377	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730322/quant.sf.gz
+DRR730323	PRJDB28507	SAMD01418378	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730323/quant.sf.gz
+DRR730324	PRJDB28507	SAMD01418379	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730324/quant.sf.gz
+DRR730325	PRJDB28507	SAMD01418380	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730325/quant.sf.gz
+DRR730326	PRJDB28507	SAMD01418381	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730326/quant.sf.gz
+DRR730327	PRJDB28507	SAMD01418382	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730327/quant.sf.gz
+DRR730328	PRJDB28507	SAMD01418383	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730328/quant.sf.gz
+DRR730329	PRJDB28507	SAMD01418384	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730329/quant.sf.gz
+DRR730330	PRJDB28507	SAMD01418385	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730330/quant.sf.gz
+DRR730331	PRJDB28507	SAMD01418386	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/DRR730331/quant.sf.gz
+DRR730332	PRJDB28507	SAMD01418387	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730332/quant.sf.gz
+DRR730333	PRJDB28507	SAMD01418388	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730333/quant.sf.gz
+DRR730334	PRJDB28507	SAMD01418389	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730334/quant.sf.gz
+DRR730335	PRJDB28507	SAMD01418390	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730335/quant.sf.gz
+DRR730336	PRJDB28507	SAMD01418391	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730336/quant.sf.gz
+DRR730337	PRJDB28507	SAMD01418392	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730337/quant.sf.gz
+DRR730338	PRJDB28507	SAMD01418393	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730338/quant.sf.gz
+DRR730339	PRJDB28507	SAMD01418394	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730339/quant.sf.gz
+DRR730340	PRJDB28507	SAMD01418395	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730340/quant.sf.gz
+DRR730341	PRJDB28507	SAMD01418396	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730341/quant.sf.gz
+DRR730342	PRJDB28507	SAMD01418397	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730342/quant.sf.gz
+DRR730343	PRJDB28507	SAMD01418398	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/DRR730343/quant.sf.gz
+ERR11156391	PRJEB60837	SAMEA112824804	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156391/quant.sf.gz
+ERR11156392	PRJEB60837	SAMEA112824804	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156392/quant.sf.gz
+ERR11156393	PRJEB60837	SAMEA112824837	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156393/quant.sf.gz
+ERR11156394	PRJEB60837	SAMEA112824840	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156394/quant.sf.gz
+ERR11156395	PRJEB60837	SAMEA112824802	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156395/quant.sf.gz
+ERR11156396	PRJEB60837	SAMEA112824805	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156396/quant.sf.gz
+ERR11156397	PRJEB60837	SAMEA112824838	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156397/quant.sf.gz
+ERR11156398	PRJEB60837	SAMEA112824841	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156398/quant.sf.gz
+ERR11156399	PRJEB60837	SAMEA112824803	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156399/quant.sf.gz
+ERR11156400	PRJEB60837	SAMEA112824806	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156400/quant.sf.gz
+ERR11156401	PRJEB60837	SAMEA112824839	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156401/quant.sf.gz
+ERR11156402	PRJEB60837	SAMEA112824842	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156402/quant.sf.gz
+ERR11156403	PRJEB60837	SAMEA112824807	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156403/quant.sf.gz
+ERR11156404	PRJEB60837	SAMEA112824798	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156404/quant.sf.gz
+ERR11156405	PRJEB60837	SAMEA112824810	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156405/quant.sf.gz
+ERR11156406	PRJEB60837	SAMEA112824813	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156406/quant.sf.gz
+ERR11156407	PRJEB60837	SAMEA112824843	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156407/quant.sf.gz
+ERR11156408	PRJEB60837	SAMEA112824834	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156408/quant.sf.gz
+ERR11156409	PRJEB60837	SAMEA112824846	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156409/quant.sf.gz
+ERR11156410	PRJEB60837	SAMEA112824849	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156410/quant.sf.gz
+ERR11156411	PRJEB60837	SAMEA112824808	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156411/quant.sf.gz
+ERR11156412	PRJEB60837	SAMEA112824799	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156412/quant.sf.gz
+ERR11156413	PRJEB60837	SAMEA112824811	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156413/quant.sf.gz
+ERR11156414	PRJEB60837	SAMEA112824814	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156414/quant.sf.gz
+ERR11156415	PRJEB60837	SAMEA112824844	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156415/quant.sf.gz
+ERR11156416	PRJEB60837	SAMEA112824835	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156416/quant.sf.gz
+ERR11156417	PRJEB60837	SAMEA112824847	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156417/quant.sf.gz
+ERR11156418	PRJEB60837	SAMEA112824850	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156418/quant.sf.gz
+ERR11156419	PRJEB60837	SAMEA112824809	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156419/quant.sf.gz
+ERR11156420	PRJEB60837	SAMEA112824800	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156420/quant.sf.gz
+ERR11156421	PRJEB60837	SAMEA112824812	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156421/quant.sf.gz
+ERR11156422	PRJEB60837	SAMEA112824815	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156422/quant.sf.gz
+ERR11156423	PRJEB60837	SAMEA112824845	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156423/quant.sf.gz
+ERR11156424	PRJEB60837	SAMEA112824836	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156424/quant.sf.gz
+ERR11156425	PRJEB60837	SAMEA112824848	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156425/quant.sf.gz
+ERR11156426	PRJEB60837	SAMEA112824851	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156426/quant.sf.gz
+ERR11156427	PRJEB60837	SAMEA112824816	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156427/quant.sf.gz
+ERR11156428	PRJEB60837	SAMEA112824819	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156428/quant.sf.gz
+ERR11156429	PRJEB60837	SAMEA112824822	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156429/quant.sf.gz
+ERR11156430	PRJEB60837	SAMEA112824852	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156430/quant.sf.gz
+ERR11156431	PRJEB60837	SAMEA112824855	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156431/quant.sf.gz
+ERR11156432	PRJEB60837	SAMEA112824858	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156432/quant.sf.gz
+ERR11156433	PRJEB60837	SAMEA112824817	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156433/quant.sf.gz
+ERR11156434	PRJEB60837	SAMEA112824820	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156434/quant.sf.gz
+ERR11156435	PRJEB60837	SAMEA112824823	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/ERR11156435/quant.sf.gz
+ERR11156436	PRJEB60837	SAMEA112824853	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156436/quant.sf.gz
+ERR11156437	PRJEB60837	SAMEA112824856	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156437/quant.sf.gz
+ERR11156438	PRJEB60837	SAMEA112824859	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/ERR11156438/quant.sf.gz
+SRR12095493	PRJNA642001	SAMN15375099	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR12095493/quant.sf.gz
+SRR12095494	PRJNA642001	SAMN15375099	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR12095494/quant.sf.gz
+SRR12095495	PRJNA642001	SAMN15375099	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR12095495/quant.sf.gz
+SRR13403354	PRJNA691261	SAMN17284281	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR13403354/quant.sf.gz
+SRR13403355	PRJNA691261	SAMN17284280	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR13403355/quant.sf.gz
+SRR13403356	PRJNA691261	SAMN17284279	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR13403356/quant.sf.gz
+SRR13403357	PRJNA691261	SAMN17284278	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR13403357/quant.sf.gz
+SRR13403358	PRJNA691261	SAMN17284277	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR13403358/quant.sf.gz
+SRR13403359	PRJNA691261	SAMN17284276	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR13403359/quant.sf.gz
+SRR13607444	PRJNA698673	SAMN17734714	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607444/quant.sf.gz
+SRR13607445	PRJNA698673	SAMN17734713	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607445/quant.sf.gz
+SRR13607446	PRJNA698673	SAMN17734713	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607446/quant.sf.gz
+SRR13607447	PRJNA698673	SAMN17734713	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607447/quant.sf.gz
+SRR13607448	PRJNA698673	SAMN17734712	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607448/quant.sf.gz
+SRR13607449	PRJNA698673	SAMN17734712	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607449/quant.sf.gz
+SRR13607450	PRJNA698673	SAMN17734712	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607450/quant.sf.gz
+SRR13607451	PRJNA698673	SAMN17734711	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607451/quant.sf.gz
+SRR13607452	PRJNA698673	SAMN17734714	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607452/quant.sf.gz
+SRR13607453	PRJNA698673	SAMN17734714	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607453/quant.sf.gz
+SRR13607454	PRJNA698673	SAMN17734711	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607454/quant.sf.gz
+SRR13607455	PRJNA698673	SAMN17734711	berry pulp / flesh	True	True	True	berry pulp / flesh	source_addenda/B_atlas_salmon/quant/SRR13607455/quant.sf.gz
+SRR14264044	PRJNA722600	SAMN18781069	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264044/quant.sf.gz
+SRR14264047	PRJNA722600	SAMN18781066	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264047/quant.sf.gz
+SRR14264050	PRJNA722600	SAMN18781095	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264050/quant.sf.gz
+SRR14264053	PRJNA722600	SAMN18781092	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264053/quant.sf.gz
+SRR14264056	PRJNA722600	SAMN18781063	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264056/quant.sf.gz
+SRR14264059	PRJNA722600	SAMN18781087	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264059/quant.sf.gz
+SRR14264062	PRJNA722600	SAMN18781084	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264062/quant.sf.gz
+SRR14264065	PRJNA722600	SAMN18781081	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264065/quant.sf.gz
+SRR14264068	PRJNA722600	SAMN18781079	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264068/quant.sf.gz
+SRR14264071	PRJNA722600	SAMN18781076	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264071/quant.sf.gz
+SRR14264074	PRJNA722600	SAMN18781073	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264074/quant.sf.gz
+SRR14264077	PRJNA722600	SAMN18781070	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR14264077/quant.sf.gz
+SRR14635663	PRJNA732451	SAMN19320725	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635663/quant.sf.gz
+SRR14635664	PRJNA732451	SAMN19320724	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635664/quant.sf.gz
+SRR14635665	PRJNA732451	SAMN19320723	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635665/quant.sf.gz
+SRR14635666	PRJNA732451	SAMN19320722	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635666/quant.sf.gz
+SRR14635667	PRJNA732451	SAMN19320719	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635667/quant.sf.gz
+SRR14635668	PRJNA732451	SAMN19320717	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635668/quant.sf.gz
+SRR14635669	PRJNA732451	SAMN19320714	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635669/quant.sf.gz
+SRR14635670	PRJNA732451	SAMN19320713	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635670/quant.sf.gz
+SRR14635671	PRJNA732451	SAMN19320712	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635671/quant.sf.gz
+SRR14635672	PRJNA732451	SAMN19320711	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635672/quant.sf.gz
+SRR14635673	PRJNA732451	SAMN19320710	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635673/quant.sf.gz
+SRR14635674	PRJNA732451	SAMN19320709	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635674/quant.sf.gz
+SRR14635675	PRJNA732451	SAMN19320708	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635675/quant.sf.gz
+SRR14635676	PRJNA732451	SAMN19320707	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635676/quant.sf.gz
+SRR14635677	PRJNA732451	SAMN19320706	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635677/quant.sf.gz
+SRR14635678	PRJNA732451	SAMN19320705	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635678/quant.sf.gz
+SRR14635679	PRJNA732451	SAMN19320704	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635679/quant.sf.gz
+SRR14635680	PRJNA732451	SAMN19320737	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635680/quant.sf.gz
+SRR14635681	PRJNA732451	SAMN19320736	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635681/quant.sf.gz
+SRR14635682	PRJNA732451	SAMN19320735	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635682/quant.sf.gz
+SRR14635683	PRJNA732451	SAMN19320734	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635683/quant.sf.gz
+SRR14635684	PRJNA732451	SAMN19320733	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635684/quant.sf.gz
+SRR14635685	PRJNA732451	SAMN19320732	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635685/quant.sf.gz
+SRR14635686	PRJNA732451	SAMN19320731	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635686/quant.sf.gz
+SRR14635687	PRJNA732451	SAMN19320730	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635687/quant.sf.gz
+SRR14635688	PRJNA732451	SAMN19320729	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635688/quant.sf.gz
+SRR14635689	PRJNA732451	SAMN19320728	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR14635689/quant.sf.gz
+SRR14696939	PRJNA373967	SAMN18604317	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696939/quant.sf.gz
+SRR14696940	PRJNA373967	SAMN18604316	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696940/quant.sf.gz
+SRR14696941	PRJNA373967	SAMN18604315	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696941/quant.sf.gz
+SRR14696942	PRJNA373967	SAMN18604314	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696942/quant.sf.gz
+SRR14696943	PRJNA373967	SAMN18604313	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696943/quant.sf.gz
+SRR14696944	PRJNA373967	SAMN18604312	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696944/quant.sf.gz
+SRR14696945	PRJNA373967	SAMN18604311	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696945/quant.sf.gz
+SRR14696946	PRJNA373967	SAMN18604310	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696946/quant.sf.gz
+SRR14696947	PRJNA373967	SAMN18604309	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696947/quant.sf.gz
+SRR14696948	PRJNA373967	SAMN18604308	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696948/quant.sf.gz
+SRR14696951	PRJNA373967	SAMN18604306	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696951/quant.sf.gz
+SRR14696952	PRJNA373967	SAMN18604305	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696952/quant.sf.gz
+SRR14696953	PRJNA373967	SAMN18604304	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696953/quant.sf.gz
+SRR14696954	PRJNA373967	SAMN18604303	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696954/quant.sf.gz
+SRR14696955	PRJNA373967	SAMN18604302	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696955/quant.sf.gz
+SRR14696957	PRJNA373967	SAMN18604300	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696957/quant.sf.gz
+SRR14696958	PRJNA373967	SAMN18604299	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696958/quant.sf.gz
+SRR14696959	PRJNA373967	SAMN18604298	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696959/quant.sf.gz
+SRR14696961	PRJNA373967	SAMN18604297	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696961/quant.sf.gz
+SRR14696962	PRJNA373967	SAMN18604296	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696962/quant.sf.gz
+SRR14696963	PRJNA373967	SAMN18604295	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696963/quant.sf.gz
+SRR14696964	PRJNA373967	SAMN18604294	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR14696964/quant.sf.gz
+SRR14697010	PRJNA373967	SAMN18604253	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR14697010/quant.sf.gz
+SRR14697011	PRJNA373967	SAMN18604252	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR14697011/quant.sf.gz
+SRR14697012	PRJNA373967	SAMN18604251	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR14697012/quant.sf.gz
+SRR14697013	PRJNA373967	SAMN18604250	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR14697013/quant.sf.gz
+SRR14697014	PRJNA373967	SAMN18604249	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR14697014/quant.sf.gz
+SRR14697015	PRJNA373967	SAMN18604248	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR14697015/quant.sf.gz
+SRR14697017	PRJNA373967	SAMN18604247	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR14697017/quant.sf.gz
+SRR14697018	PRJNA373967	SAMN18604246	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR14697018/quant.sf.gz
+SRR14697019	PRJNA373967	SAMN18604245	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR14697019/quant.sf.gz
+SRR14697020	PRJNA373967	SAMN18604244	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR14697020/quant.sf.gz
+SRR14777744	PRJNA736298	SAMN19641472	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777744/quant.sf.gz
+SRR14777746	PRJNA736298	SAMN19641471	flower / inflorescence	False	False	False	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777746/quant.sf.gz
+SRR14777749	PRJNA736298	SAMN19641471	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777749/quant.sf.gz
+SRR14777751	PRJNA736298	SAMN19641472	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777751/quant.sf.gz
+SRR14777753	PRJNA736298	SAMN19641473	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777753/quant.sf.gz
+SRR14777755	PRJNA736298	SAMN19641471	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777755/quant.sf.gz
+SRR14777757	PRJNA736298	SAMN19641472	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777757/quant.sf.gz
+SRR14777759	PRJNA736298	SAMN19641473	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777759/quant.sf.gz
+SRR14777761	PRJNA736298	SAMN19641473	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777761/quant.sf.gz
+SRR14777763	PRJNA736298	SAMN19641473	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777763/quant.sf.gz
+SRR14777765	PRJNA736298	SAMN19641471	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777765/quant.sf.gz
+SRR14777767	PRJNA736298	SAMN19641471	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR14777767/quant.sf.gz
+SRR17245517	PRJNA788660	SAMN24015080	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR17245517/quant.sf.gz
+SRR17245518	PRJNA788660	SAMN24015079	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR17245518/quant.sf.gz
+SRR17245519	PRJNA788660	SAMN24015078	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR17245519/quant.sf.gz
+SRR17245520	PRJNA788660	SAMN24015077	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17245520/quant.sf.gz
+SRR17245521	PRJNA788660	SAMN24015076	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17245521/quant.sf.gz
+SRR17245522	PRJNA788660	SAMN24015075	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17245522/quant.sf.gz
+SRR1736722	PRJNA260535	SAMN03023975	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1736722/quant.sf.gz
+SRR1736730	PRJNA260535	SAMN03023977	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1736730/quant.sf.gz
+SRR17386511	PRJNA793284	SAMN24528418	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386511/quant.sf.gz
+SRR17386512	PRJNA793284	SAMN24528417	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386512/quant.sf.gz
+SRR17386513	PRJNA793284	SAMN24528416	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386513/quant.sf.gz
+SRR17386514	PRJNA793284	SAMN24528415	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386514/quant.sf.gz
+SRR17386515	PRJNA793284	SAMN24528414	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386515/quant.sf.gz
+SRR17386516	PRJNA793284	SAMN24528413	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386516/quant.sf.gz
+SRR17386517	PRJNA793284	SAMN24528412	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386517/quant.sf.gz
+SRR17386518	PRJNA793284	SAMN24528411	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386518/quant.sf.gz
+SRR17386519	PRJNA793284	SAMN24528410	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386519/quant.sf.gz
+SRR17386520	PRJNA793284	SAMN24528409	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386520/quant.sf.gz
+SRR17386522	PRJNA793284	SAMN24528408	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386522/quant.sf.gz
+SRR17386523	PRJNA793284	SAMN24528407	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR17386523/quant.sf.gz
+SRR1748314	PRJNA260535	SAMN03023979	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1748314/quant.sf.gz
+SRR1748321	PRJNA260535	SAMN03023982	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1748321/quant.sf.gz
+SRR1748328	PRJNA260535	SAMN03023984	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1748328/quant.sf.gz
+SRR1748335	PRJNA260535	SAMN03023986	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1748335/quant.sf.gz
+SRR1748342	PRJNA260535	SAMN03023989	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1748342/quant.sf.gz
+SRR1748349	PRJNA260535	SAMN03023991	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1748349/quant.sf.gz
+SRR1748356	PRJNA260535	SAMN03023993	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1748356/quant.sf.gz
+SRR1748363	PRJNA260535	SAMN03023996	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1748363/quant.sf.gz
+SRR1748370	PRJNA260535	SAMN03023998	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1748370/quant.sf.gz
+SRR1748377	PRJNA260535	SAMN03024000	berry skin	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR1748377/quant.sf.gz
+SRR18138591	PRJNA808789	SAMN26202033	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR18138591/quant.sf.gz
+SRR18138592	PRJNA808789	SAMN26202031	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR18138592/quant.sf.gz
+SRR18138593	PRJNA808789	SAMN26202029	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR18138593/quant.sf.gz
+SRR18138594	PRJNA808789	SAMN26202027	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR18138594/quant.sf.gz
+SRR18138595	PRJNA808789	SAMN26202041	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR18138595/quant.sf.gz
+SRR18138596	PRJNA808789	SAMN26202039	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR18138596/quant.sf.gz
+SRR18138597	PRJNA808789	SAMN26202037	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR18138597/quant.sf.gz
+SRR18138598	PRJNA808789	SAMN26202035	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR18138598/quant.sf.gz
+SRR18138599	PRJNA808789	SAMN26202025	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR18138599/quant.sf.gz
+SRR18531202	PRJNA821332	SAMN27065598	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531202/quant.sf.gz
+SRR18531203	PRJNA821332	SAMN27065597	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531203/quant.sf.gz
+SRR18531204	PRJNA821332	SAMN27065596	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531204/quant.sf.gz
+SRR18531205	PRJNA821332	SAMN27065595	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531205/quant.sf.gz
+SRR18531206	PRJNA821332	SAMN27065594	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531206/quant.sf.gz
+SRR18531207	PRJNA821332	SAMN27065593	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531207/quant.sf.gz
+SRR18531208	PRJNA821332	SAMN27065592	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531208/quant.sf.gz
+SRR18531209	PRJNA821332	SAMN27065591	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531209/quant.sf.gz
+SRR18531210	PRJNA821332	SAMN27065600	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531210/quant.sf.gz
+SRR18531211	PRJNA821332	SAMN27065599	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531211/quant.sf.gz
+SRR18531212	PRJNA821332	SAMN27065590	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531212/quant.sf.gz
+SRR18531213	PRJNA821332	SAMN27065589	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR18531213/quant.sf.gz
+SRR18970052				False	False	False		source_addenda/B_atlas_salmon/quant/SRR18970052/quant.sf.gz
+SRR18970053				False	False	False		source_addenda/B_atlas_salmon/quant/SRR18970053/quant.sf.gz
+SRR18970054				False	False	False		source_addenda/B_atlas_salmon/quant/SRR18970054/quant.sf.gz
+SRR18970058				False	False	False		source_addenda/B_atlas_salmon/quant/SRR18970058/quant.sf.gz
+SRR18970061				False	False	False		source_addenda/B_atlas_salmon/quant/SRR18970061/quant.sf.gz
+SRR18970062				False	False	False		source_addenda/B_atlas_salmon/quant/SRR18970062/quant.sf.gz
+SRR2015361	PRJNA283438	SAMN03650271	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR2015361/quant.sf.gz
+SRR2015362	PRJNA283438	SAMN03650272	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR2015362/quant.sf.gz
+SRR20664573	PRJNA862686	SAMN29989379	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664573/quant.sf.gz
+SRR20664575	PRJNA862686	SAMN29989377	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664575/quant.sf.gz
+SRR20664577	PRJNA862686	SAMN29989375	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664577/quant.sf.gz
+SRR20664579	PRJNA862686	SAMN29989402	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664579/quant.sf.gz
+SRR20664581	PRJNA862686	SAMN29989400	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664581/quant.sf.gz
+SRR20664583	PRJNA862686	SAMN29989399	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664583/quant.sf.gz
+SRR20664585	PRJNA862686	SAMN29989397	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664585/quant.sf.gz
+SRR20664587	PRJNA862686	SAMN29989395	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664587/quant.sf.gz
+SRR20664589	PRJNA862686	SAMN29989393	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664589/quant.sf.gz
+SRR20664591	PRJNA862686	SAMN29989391	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664591/quant.sf.gz
+SRR20664593	PRJNA862686	SAMN29989372	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664593/quant.sf.gz
+SRR20664595	PRJNA862686	SAMN29989388	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR20664595/quant.sf.gz
+SRR23436083	PRJNA915781	SAMN33268581	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436083/quant.sf.gz
+SRR23436085	PRJNA915781	SAMN33268579	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436085/quant.sf.gz
+SRR23436087	PRJNA915781	SAMN33268577	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436087/quant.sf.gz
+SRR23436089	PRJNA915781	SAMN33268575	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436089/quant.sf.gz
+SRR23436091	PRJNA915781	SAMN33268600	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436091/quant.sf.gz
+SRR23436093	PRJNA915781	SAMN33268598	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436093/quant.sf.gz
+SRR23436095	PRJNA915781	SAMN33268596	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436095/quant.sf.gz
+SRR23436097	PRJNA915781	SAMN33268594	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436097/quant.sf.gz
+SRR23436099	PRJNA915781	SAMN33268592	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436099/quant.sf.gz
+SRR23436101	PRJNA915781	SAMN33268591	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436101/quant.sf.gz
+SRR23436103	PRJNA915781	SAMN33268589	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436103/quant.sf.gz
+SRR23436105	PRJNA915781	SAMN33268587	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR23436105/quant.sf.gz
+SRR24835491	PRJNA980588	SAMN35639796	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835491/quant.sf.gz
+SRR24835492	PRJNA980588	SAMN35639792	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835492/quant.sf.gz
+SRR24835493	PRJNA980588	SAMN35639793	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835493/quant.sf.gz
+SRR24835494	PRJNA980588	SAMN35639794	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835494/quant.sf.gz
+SRR24835495	PRJNA980588	SAMN35639795	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835495/quant.sf.gz
+SRR24835496	PRJNA980588	SAMN35639808	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835496/quant.sf.gz
+SRR24835497	PRJNA980588	SAMN35639797	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835497/quant.sf.gz
+SRR24835498	PRJNA980588	SAMN35639798	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835498/quant.sf.gz
+SRR24835499	PRJNA980588	SAMN35639799	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835499/quant.sf.gz
+SRR24835500	PRJNA980588	SAMN35639800	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835500/quant.sf.gz
+SRR24835501	PRJNA980588	SAMN35639801	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835501/quant.sf.gz
+SRR24835502	PRJNA980588	SAMN35639802	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835502/quant.sf.gz
+SRR24835503	PRJNA980588	SAMN35639803	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835503/quant.sf.gz
+SRR24835504	PRJNA980588	SAMN35639804	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835504/quant.sf.gz
+SRR24835505	PRJNA980588	SAMN35639805	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835505/quant.sf.gz
+SRR24835506	PRJNA980588	SAMN35639806	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835506/quant.sf.gz
+SRR24835507	PRJNA980588	SAMN35639807	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835507/quant.sf.gz
+SRR24835508	PRJNA980588	SAMN35639809	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835508/quant.sf.gz
+SRR24835509	PRJNA980588	SAMN35639810	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835509/quant.sf.gz
+SRR24835510	PRJNA980588	SAMN35639811	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835510/quant.sf.gz
+SRR24835511	PRJNA980588	SAMN35639812	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835511/quant.sf.gz
+SRR24835512	PRJNA980588	SAMN35639813	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835512/quant.sf.gz
+SRR24835513	PRJNA980588	SAMN35639820	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835513/quant.sf.gz
+SRR24835514	PRJNA980588	SAMN35639819	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835514/quant.sf.gz
+SRR24835515	PRJNA980588	SAMN35639818	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835515/quant.sf.gz
+SRR24835516	PRJNA980588	SAMN35639817	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835516/quant.sf.gz
+SRR24835517	PRJNA980588	SAMN35639816	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835517/quant.sf.gz
+SRR24835518	PRJNA980588	SAMN35639815	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835518/quant.sf.gz
+SRR24835519	PRJNA980588	SAMN35639814	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835519/quant.sf.gz
+SRR24835520	PRJNA980588	SAMN35639825	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835520/quant.sf.gz
+SRR24835521	PRJNA980588	SAMN35639824	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835521/quant.sf.gz
+SRR24835522	PRJNA980588	SAMN35639823	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835522/quant.sf.gz
+SRR24835523	PRJNA980588	SAMN35639822	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835523/quant.sf.gz
+SRR24835524	PRJNA980588	SAMN35639821	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835524/quant.sf.gz
+SRR24835525	PRJNA980588	SAMN35639826	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835525/quant.sf.gz
+SRR24835526	PRJNA980588	SAMN35639827	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835526/quant.sf.gz
+SRR24835527	PRJNA980588	SAMN35639828	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835527/quant.sf.gz
+SRR24835528	PRJNA980588	SAMN35639829	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835528/quant.sf.gz
+SRR24835529	PRJNA980588	SAMN35639830	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835529/quant.sf.gz
+SRR24835530	PRJNA980588	SAMN35639831	somatic embryo	True	True	True	somatic embryo	source_addenda/B_atlas_salmon/quant/SRR24835530/quant.sf.gz
+SRR25473449	PRJNA999922	SAMN36736159	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473449/quant.sf.gz
+SRR25473450	PRJNA999922	SAMN36736070	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473450/quant.sf.gz
+SRR25473451	PRJNA999922	SAMN36736069	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473451/quant.sf.gz
+SRR25473452	PRJNA999922	SAMN36736068	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473452/quant.sf.gz
+SRR25473453	PRJNA999922	SAMN36736067	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473453/quant.sf.gz
+SRR25473454	PRJNA999922	SAMN36750993	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473454/quant.sf.gz
+SRR25473455	PRJNA999922	SAMN36750992	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473455/quant.sf.gz
+SRR25473456	PRJNA999922	SAMN36736066	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473456/quant.sf.gz
+SRR25473457	PRJNA999922	SAMN36750991	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473457/quant.sf.gz
+SRR25473458	PRJNA999922	SAMN36750650	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473458/quant.sf.gz
+SRR25473459	PRJNA999922	SAMN36750649	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473459/quant.sf.gz
+SRR25473460	PRJNA999922	SAMN36750648	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473460/quant.sf.gz
+SRR25473461	PRJNA999922	SAMN36750647	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473461/quant.sf.gz
+SRR25473462	PRJNA999922	SAMN36750646	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473462/quant.sf.gz
+SRR25473463	PRJNA999922	SAMN36750645	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473463/quant.sf.gz
+SRR25473464	PRJNA999922	SAMN36750487	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473464/quant.sf.gz
+SRR25473465	PRJNA999922	SAMN36750486	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473465/quant.sf.gz
+SRR25473466	PRJNA999922	SAMN36750485	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR25473466/quant.sf.gz
+SRR25473467	PRJNA999922	SAMN36736065	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473467/quant.sf.gz
+SRR25473468	PRJNA999922	SAMN36736232	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473468/quant.sf.gz
+SRR25473469	PRJNA999922	SAMN36736231	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473469/quant.sf.gz
+SRR25473470	PRJNA999922	SAMN36736230	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473470/quant.sf.gz
+SRR25473471	PRJNA999922	SAMN36736229	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473471/quant.sf.gz
+SRR25473472	PRJNA999922	SAMN36736228	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473472/quant.sf.gz
+SRR25473473	PRJNA999922	SAMN36736227	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473473/quant.sf.gz
+SRR25473474	PRJNA999922	SAMN36736225	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473474/quant.sf.gz
+SRR25473475	PRJNA999922	SAMN36736224	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473475/quant.sf.gz
+SRR25473476	PRJNA999922	SAMN36736223	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473476/quant.sf.gz
+SRR25473477	PRJNA999922	SAMN36736222	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473477/quant.sf.gz
+SRR25473478	PRJNA999922	SAMN36736019	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473478/quant.sf.gz
+SRR25473479	PRJNA999922	SAMN36736221	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473479/quant.sf.gz
+SRR25473480	PRJNA999922	SAMN36736220	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473480/quant.sf.gz
+SRR25473481	PRJNA999922	SAMN36736191	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473481/quant.sf.gz
+SRR25473482	PRJNA999922	SAMN36736190	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473482/quant.sf.gz
+SRR25473483	PRJNA999922	SAMN36736189	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473483/quant.sf.gz
+SRR25473484	PRJNA999922	SAMN36736164	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR25473484/quant.sf.gz
+SRR27050442	PRJNA1048521	SAMN38646009	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR27050442/quant.sf.gz
+SRR27050443	PRJNA1048521	SAMN38646008	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR27050443/quant.sf.gz
+SRR27050444	PRJNA1048521	SAMN38646007	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR27050444/quant.sf.gz
+SRR27050445	PRJNA1048521	SAMN38646006	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR27050445/quant.sf.gz
+SRR27050454	PRJNA1048521	SAMN38646005	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR27050454/quant.sf.gz
+SRR27050455	PRJNA1048521	SAMN38646004	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR27050455/quant.sf.gz
+SRR27108795	PRJNA1049331	SAMN38692765	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR27108795/quant.sf.gz
+SRR27108796	PRJNA1049331	SAMN38692764	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR27108796/quant.sf.gz
+SRR27108797	PRJNA1049331	SAMN38692763	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR27108797/quant.sf.gz
+SRR27108798	PRJNA1049331	SAMN38692762	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR27108798/quant.sf.gz
+SRR27108799	PRJNA1049331	SAMN38692761	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR27108799/quant.sf.gz
+SRR27108800	PRJNA1049331	SAMN38692760	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR27108800/quant.sf.gz
+SRR27709639	PRJNA1068036	SAMN39593699	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709639/quant.sf.gz
+SRR27709641	PRJNA1068036	SAMN39593697	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709641/quant.sf.gz
+SRR27709643	PRJNA1068036	SAMN39593695	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709643/quant.sf.gz
+SRR27709645	PRJNA1068036	SAMN39593693	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709645/quant.sf.gz
+SRR27709647	PRJNA1068036	SAMN39593712	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709647/quant.sf.gz
+SRR27709649	PRJNA1068036	SAMN39593710	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709649/quant.sf.gz
+SRR27709651	PRJNA1068036	SAMN39593709	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709651/quant.sf.gz
+SRR27709653	PRJNA1068036	SAMN39593707	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709653/quant.sf.gz
+SRR27709655	PRJNA1068036	SAMN39593705	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709655/quant.sf.gz
+SRR27709657	PRJNA1068036	SAMN39593703	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709657/quant.sf.gz
+SRR27709659	PRJNA1068036	SAMN39593701	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709659/quant.sf.gz
+SRR27709661	PRJNA1068036	SAMN39593691	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR27709661/quant.sf.gz
+SRR27759197	PRJNA1070606	SAMN39654703	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR27759197/quant.sf.gz
+SRR27759198	PRJNA1070606	SAMN39654702	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR27759198/quant.sf.gz
+SRR27759205	PRJNA1070606	SAMN39654701	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR27759205/quant.sf.gz
+SRR27759216	PRJNA1070606	SAMN39654700	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR27759216/quant.sf.gz
+SRR27759219				False	False	False		source_addenda/B_atlas_salmon/quant/SRR27759219/quant.sf.gz
+SRR28403152	PRJNA1090268	SAMN40560822	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR28403152/quant.sf.gz
+SRR28403155	PRJNA1090268	SAMN40560821	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR28403155/quant.sf.gz
+SRR28403156	PRJNA1090268	SAMN40560820	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR28403156/quant.sf.gz
+SRR29552698	PRJNA1122387	SAMN42050798	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552698/quant.sf.gz
+SRR29552699	PRJNA1122387	SAMN42050797	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552699/quant.sf.gz
+SRR29552700	PRJNA1122387	SAMN42050796	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552700/quant.sf.gz
+SRR29552701	PRJNA1122387	SAMN42050795	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552701/quant.sf.gz
+SRR29552702	PRJNA1122387	SAMN42050794	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552702/quant.sf.gz
+SRR29552703	PRJNA1122387	SAMN42050793	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552703/quant.sf.gz
+SRR29552704	PRJNA1122387	SAMN42050792	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552704/quant.sf.gz
+SRR29552705	PRJNA1122387	SAMN42050791	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552705/quant.sf.gz
+SRR29552706	PRJNA1122387	SAMN42050806	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552706/quant.sf.gz
+SRR29552707	PRJNA1122387	SAMN42050805	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552707/quant.sf.gz
+SRR29552708	PRJNA1122387	SAMN42050804	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552708/quant.sf.gz
+SRR29552709	PRJNA1122387	SAMN42050803	root	True	True	True	root	source_addenda/B_atlas_salmon/quant/SRR29552709/quant.sf.gz
+SRR30142265	PRJNA1144781	SAMN43042406	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142265/quant.sf.gz
+SRR30142266	PRJNA1144781	SAMN43042405	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142266/quant.sf.gz
+SRR30142267	PRJNA1144781	SAMN43042404	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142267/quant.sf.gz
+SRR30142268	PRJNA1144781	SAMN43042403	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142268/quant.sf.gz
+SRR30142269	PRJNA1144781	SAMN43042402	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142269/quant.sf.gz
+SRR30142270	PRJNA1144781	SAMN43042401	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142270/quant.sf.gz
+SRR30142271	PRJNA1144781	SAMN43042400	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142271/quant.sf.gz
+SRR30142272	PRJNA1144781	SAMN43042399	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142272/quant.sf.gz
+SRR30142273	PRJNA1144781	SAMN43042408	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142273/quant.sf.gz
+SRR30142274	PRJNA1144781	SAMN43042407	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142274/quant.sf.gz
+SRR30142275	PRJNA1144781	SAMN43042398	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142275/quant.sf.gz
+SRR30142276	PRJNA1144781	SAMN43042397	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30142276/quant.sf.gz
+SRR30350808	PRJNA1151140	SAMN43304184	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350808/quant.sf.gz
+SRR30350809	PRJNA1151140	SAMN43304183	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350809/quant.sf.gz
+SRR30350810	PRJNA1151140	SAMN43304182	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350810/quant.sf.gz
+SRR30350811	PRJNA1151140	SAMN43304181	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350811/quant.sf.gz
+SRR30350812	PRJNA1151140	SAMN43304180	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350812/quant.sf.gz
+SRR30350813	PRJNA1151140	SAMN43304179	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350813/quant.sf.gz
+SRR30350814	PRJNA1151140	SAMN43304178	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350814/quant.sf.gz
+SRR30350815	PRJNA1151140	SAMN43304177	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350815/quant.sf.gz
+SRR30350816	PRJNA1151140	SAMN43304192	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350816/quant.sf.gz
+SRR30350817	PRJNA1151140	SAMN43304191	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350817/quant.sf.gz
+SRR30350818	PRJNA1151140	SAMN43304190	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350818/quant.sf.gz
+SRR30350819	PRJNA1151140	SAMN43304189	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR30350819/quant.sf.gz
+SRR30426930	PRJNA1153273	SAMN43395437	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426930/quant.sf.gz
+SRR30426931	PRJNA1153273	SAMN43395438	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426931/quant.sf.gz
+SRR30426932	PRJNA1153273	SAMN43395439	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426932/quant.sf.gz
+SRR30426933	PRJNA1153273	SAMN43395440	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426933/quant.sf.gz
+SRR30426934	PRJNA1153273	SAMN43395442	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426934/quant.sf.gz
+SRR30426935	PRJNA1153273	SAMN43395444	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426935/quant.sf.gz
+SRR30426936	PRJNA1153273	SAMN43395446	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426936/quant.sf.gz
+SRR30426937	PRJNA1153273	SAMN43395447	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426937/quant.sf.gz
+SRR30426938	PRJNA1153273	SAMN43395445	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426938/quant.sf.gz
+SRR30426939	PRJNA1153273	SAMN43395443	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426939/quant.sf.gz
+SRR30426940	PRJNA1153273	SAMN43395441	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426940/quant.sf.gz
+SRR30426941	PRJNA1153273	SAMN43395448	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426941/quant.sf.gz
+SRR30426942	PRJNA1153273	SAMN43395449	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR30426942/quant.sf.gz
+SRR3056870	PRJNA307077	SAMN04371284	shoot apex	True	True	True	shoot apex	source_addenda/B_atlas_salmon/quant/SRR3056870/quant.sf.gz
+SRR3056873	PRJNA307077	SAMN04371285	shoot apex	True	True	True	shoot apex	source_addenda/B_atlas_salmon/quant/SRR3056873/quant.sf.gz
+SRR3056874	PRJNA307077	SAMN04371286	shoot apex	True	True	True	shoot apex	source_addenda/B_atlas_salmon/quant/SRR3056874/quant.sf.gz
+SRR3056875	PRJNA307077	SAMN04371287	shoot apex	True	True	True	shoot apex	source_addenda/B_atlas_salmon/quant/SRR3056875/quant.sf.gz
+SRR3056876	PRJNA307077	SAMN04371288	shoot apex	True	True	True	shoot apex	source_addenda/B_atlas_salmon/quant/SRR3056876/quant.sf.gz
+SRR3056877	PRJNA307077	SAMN04371289	shoot apex	True	True	True	shoot apex	source_addenda/B_atlas_salmon/quant/SRR3056877/quant.sf.gz
+SRR31202724	PRJNA1181250	SAMN44551710	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR31202724/quant.sf.gz
+SRR31202725	PRJNA1181250	SAMN44551709	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR31202725/quant.sf.gz
+SRR31202726	PRJNA1181250	SAMN44551708	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR31202726/quant.sf.gz
+SRR31202727	PRJNA1181250	SAMN44551707	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR31202727/quant.sf.gz
+SRR31202728	PRJNA1181250	SAMN44551706	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR31202728/quant.sf.gz
+SRR31202729	PRJNA1181250	SAMN44551705	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR31202729/quant.sf.gz
+SRR31202730	PRJNA1181250	SAMN44551704	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR31202730/quant.sf.gz
+SRR31202731	PRJNA1181250	SAMN44551703	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR31202731/quant.sf.gz
+SRR31202732	PRJNA1181250	SAMN44551702	shoot / seedling / whole plant	True	True	True	shoot / seedling / whole plant	source_addenda/B_atlas_salmon/quant/SRR31202732/quant.sf.gz
+SRR32051251	PRJNA1213010	SAMN46316432	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051251/quant.sf.gz
+SRR32051253	PRJNA1213010	SAMN46316430	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051253/quant.sf.gz
+SRR32051255	PRJNA1213010	SAMN46316428	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051255/quant.sf.gz
+SRR32051275	PRJNA1213010	SAMN46316426	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051275/quant.sf.gz
+SRR32051283	PRJNA1213010	SAMN46316445	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051283/quant.sf.gz
+SRR32051285	PRJNA1213010	SAMN46316443	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051285/quant.sf.gz
+SRR32051287	PRJNA1213010	SAMN46316442	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051287/quant.sf.gz
+SRR32051289	PRJNA1213010	SAMN46316440	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051289/quant.sf.gz
+SRR32051291	PRJNA1213010	SAMN46316438	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051291/quant.sf.gz
+SRR32051293	PRJNA1213010	SAMN46316436	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051293/quant.sf.gz
+SRR32051295	PRJNA1213010	SAMN46316434	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051295/quant.sf.gz
+SRR32051297	PRJNA1213010	SAMN46316424	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR32051297/quant.sf.gz
+SRR34179208	PRJNA1282087	SAMN49614178	unlabelled calli (inferred embryogenic)	False	True	False		source_addenda/B_atlas_salmon/quant/SRR34179208/quant.sf.gz
+SRR34179209	PRJNA1282087	SAMN49614177	unlabelled calli (inferred embryogenic)	False	True	False		source_addenda/B_atlas_salmon/quant/SRR34179209/quant.sf.gz
+SRR34179210	PRJNA1282087	SAMN49614176	unlabelled calli (inferred embryogenic)	False	True	False		source_addenda/B_atlas_salmon/quant/SRR34179210/quant.sf.gz
+SRR34179211	PRJNA1282087	SAMN49614175	unlabelled calli (inferred embryogenic)	False	True	False		source_addenda/B_atlas_salmon/quant/SRR34179211/quant.sf.gz
+SRR34179212	PRJNA1282087	SAMN49614174	unlabelled calli (inferred embryogenic)	False	True	False		source_addenda/B_atlas_salmon/quant/SRR34179212/quant.sf.gz
+SRR34179213	PRJNA1282087	SAMN49614173	unlabelled calli (inferred embryogenic)	False	True	False		source_addenda/B_atlas_salmon/quant/SRR34179213/quant.sf.gz
+SRR360528	PRJNA149115	SAMN00749844	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR360528/quant.sf.gz
+SRR360529	PRJNA149115	SAMN00749845	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR360529/quant.sf.gz
+SRR360530	PRJNA149115	SAMN00749846	tendril	True	True	True	tendril	source_addenda/B_atlas_salmon/quant/SRR360530/quant.sf.gz
+SRR37824499	PRJNA1444213	SAMN56742794	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR37824499/quant.sf.gz
+SRR37824502	PRJNA1444213	SAMN56742793	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR37824502/quant.sf.gz
+SRR37824503	PRJNA1444213	SAMN56742792	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR37824503/quant.sf.gz
+SRR38183229	PRJNA1455389	SAMN57364156	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183229/quant.sf.gz
+SRR38183230	PRJNA1455389	SAMN57364156	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183230/quant.sf.gz
+SRR38183231	PRJNA1455389	SAMN57364156	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183231/quant.sf.gz
+SRR38183232	PRJNA1455389	SAMN57364156	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183232/quant.sf.gz
+SRR38183233	PRJNA1455389	SAMN57364155	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183233/quant.sf.gz
+SRR38183234	PRJNA1455389	SAMN57364155	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183234/quant.sf.gz
+SRR38183235	PRJNA1455389	SAMN57364155	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183235/quant.sf.gz
+SRR38183236	PRJNA1455389	SAMN57364155	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183236/quant.sf.gz
+SRR38183237	PRJNA1455389	SAMN57364156	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183237/quant.sf.gz
+SRR38183238	PRJNA1455389	SAMN57364156	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183238/quant.sf.gz
+SRR38183239	PRJNA1455389	SAMN57364155	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183239/quant.sf.gz
+SRR38183240	PRJNA1455389	SAMN57364155	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR38183240/quant.sf.gz
+SRR39304303	PRJNA1478002	SAMN61075801	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR39304303/quant.sf.gz
+SRR39304316	PRJNA1478002	SAMN61075870	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR39304316/quant.sf.gz
+SRR39304331	PRJNA1478002	SAMN61075827	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR39304331/quant.sf.gz
+SRR39304344	PRJNA1478002	SAMN61075955	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR39304344/quant.sf.gz
+SRR39304358	PRJNA1478002	SAMN61075861	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR39304358/quant.sf.gz
+SRR39304375	PRJNA1478002	SAMN61075985	bud	False	False	False	bud	source_addenda/B_atlas_salmon/quant/SRR39304375/quant.sf.gz
+SRR39304395	PRJNA1478002	SAMN61075923	bud	False	False	False	bud	source_addenda/B_atlas_salmon/quant/SRR39304395/quant.sf.gz
+SRR39304409	PRJNA1478002	SAMN61075852	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR39304409/quant.sf.gz
+SRR39304421	PRJNA1478002	SAMN61075797	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR39304421/quant.sf.gz
+SRR39304440	PRJNA1478002	SAMN61075964	bud	False	False	False	bud	source_addenda/B_atlas_salmon/quant/SRR39304440/quant.sf.gz
+SRR39304464	PRJNA1478002	SAMN61075942	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR39304464/quant.sf.gz
+SRR39304483	PRJNA1478002	SAMN61075896	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR39304483/quant.sf.gz
+SRR39573501	PRJNA1493293	SAMN61555605	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573501/quant.sf.gz
+SRR39573502	PRJNA1493293	SAMN61555604	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573502/quant.sf.gz
+SRR39573503	PRJNA1493293	SAMN61555603	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573503/quant.sf.gz
+SRR39573504	PRJNA1493293	SAMN61555602	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573504/quant.sf.gz
+SRR39573505	PRJNA1493293	SAMN61555601	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573505/quant.sf.gz
+SRR39573506	PRJNA1493293	SAMN61555600	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573506/quant.sf.gz
+SRR39573507	PRJNA1493293	SAMN61555599	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573507/quant.sf.gz
+SRR39573508	PRJNA1493293	SAMN61555598	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573508/quant.sf.gz
+SRR39573509	PRJNA1493293	SAMN61555613	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573509/quant.sf.gz
+SRR39573510	PRJNA1493293	SAMN61555612	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573510/quant.sf.gz
+SRR39573511	PRJNA1493293	SAMN61555611	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573511/quant.sf.gz
+SRR39573512	PRJNA1493293	SAMN61555610	berry / fruit	True	True	True	berry skin	source_addenda/B_atlas_salmon/quant/SRR39573512/quant.sf.gz
+SRR4014715	PRJNA338255	SAMN05544793	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR4014715/quant.sf.gz
+SRR4014716	PRJNA338255	SAMN05544794	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR4014716/quant.sf.gz
+SRR4014717	PRJNA338255	SAMN05544795	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR4014717/quant.sf.gz
+SRR4014718	PRJNA338255	SAMN05544796	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR4014718/quant.sf.gz
+SRR4014793	PRJNA338255	SAMN05544797	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR4014793/quant.sf.gz
+SRR4014795	PRJNA338255	SAMN05544798	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR4014795/quant.sf.gz
+SRR5832338	PRJNA394737	SAMN07358096	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832338/quant.sf.gz
+SRR5832351	PRJNA394737	SAMN07358193	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832351/quant.sf.gz
+SRR5832364	PRJNA394737	SAMN07358092	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832364/quant.sf.gz
+SRR5832377	PRJNA394737	SAMN07358079	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832377/quant.sf.gz
+SRR5832390	PRJNA394737	SAMN07358066	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832390/quant.sf.gz
+SRR5832403	PRJNA394737	SAMN07358053	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832403/quant.sf.gz
+SRR5832416	PRJNA394737	SAMN07358151	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832416/quant.sf.gz
+SRR5832429	PRJNA394737	SAMN07358136	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832429/quant.sf.gz
+SRR5832442	PRJNA394737	SAMN07358122	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832442/quant.sf.gz
+SRR5832455	PRJNA394737	SAMN07358179	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832455/quant.sf.gz
+SRR5832468	PRJNA394737	SAMN07358166	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832468/quant.sf.gz
+SRR5832481	PRJNA394737	SAMN07358153	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR5832481/quant.sf.gz
+SRR6080246	PRJNA412324	SAMN07709686	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080246/quant.sf.gz
+SRR6080263	PRJNA412324	SAMN07709669	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080263/quant.sf.gz
+SRR6080280	PRJNA412324	SAMN07709709	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080280/quant.sf.gz
+SRR6080297	PRJNA412324	SAMN07709692	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080297/quant.sf.gz
+SRR6080315	PRJNA412324	SAMN07709630	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080315/quant.sf.gz
+SRR6080332	PRJNA412324	SAMN07709614	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080332/quant.sf.gz
+SRR6080349	PRJNA412324	SAMN07709544	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080349/quant.sf.gz
+SRR6080366	PRJNA412324	SAMN07709558	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080366/quant.sf.gz
+SRR6080383	PRJNA412324	SAMN07709645	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080383/quant.sf.gz
+SRR6080400	PRJNA412324	SAMN07709590	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080400/quant.sf.gz
+SRR6080417	PRJNA412324	SAMN07709530	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080417/quant.sf.gz
+SRR6080434	PRJNA412324	SAMN07709513	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR6080434/quant.sf.gz
+SRR6951677	PRJNA448744	SAMN08863801	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951677/quant.sf.gz
+SRR6951679	PRJNA448744	SAMN08863799	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951679/quant.sf.gz
+SRR6951681	PRJNA448744	SAMN08863784	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951681/quant.sf.gz
+SRR6951683	PRJNA448744	SAMN08863786	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951683/quant.sf.gz
+SRR6951685	PRJNA448744	SAMN08863780	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951685/quant.sf.gz
+SRR6951687	PRJNA448744	SAMN08863782	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951687/quant.sf.gz
+SRR6951689	PRJNA448744	SAMN08863788	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951689/quant.sf.gz
+SRR6951691	PRJNA448744	SAMN08863796	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951691/quant.sf.gz
+SRR6951693	PRJNA448744	SAMN08863794	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951693/quant.sf.gz
+SRR6951695	PRJNA448744	SAMN08863792	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951695/quant.sf.gz
+SRR6951697	PRJNA448744	SAMN08863790	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951697/quant.sf.gz
+SRR6951699	PRJNA448744	SAMN08863798	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR6951699/quant.sf.gz
+SRR7424060	PRJNA477842	SAMN09480887	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424060/quant.sf.gz
+SRR7424066	PRJNA477842	SAMN09480875	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424066/quant.sf.gz
+SRR7424072	PRJNA477842	SAMN09483092	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424072/quant.sf.gz
+SRR7424078	PRJNA477842	SAMN09483081	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424078/quant.sf.gz
+SRR7424084	PRJNA477842	SAMN09483049	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424084/quant.sf.gz
+SRR7424090	PRJNA477842	SAMN09483037	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424090/quant.sf.gz
+SRR7424096	PRJNA477842	SAMN09483026	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424096/quant.sf.gz
+SRR7424102	PRJNA477842	SAMN09483014	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424102/quant.sf.gz
+SRR7424108	PRJNA477842	SAMN09480755	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424108/quant.sf.gz
+SRR7424114	PRJNA477842	SAMN09480742	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424114/quant.sf.gz
+SRR7424120	PRJNA477842	SAMN09480778	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424120/quant.sf.gz
+SRR7424126	PRJNA477842	SAMN09480765	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR7424126/quant.sf.gz
+SRR7768546	PRJNA488534	SAMN09935331	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768546/quant.sf.gz
+SRR7768549	PRJNA488534	SAMN09935332	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768549/quant.sf.gz
+SRR7768552	PRJNA488534	SAMN09935313	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768552/quant.sf.gz
+SRR7768555	PRJNA488534	SAMN09935310	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768555/quant.sf.gz
+SRR7768558	PRJNA488534	SAMN09935315	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768558/quant.sf.gz
+SRR7768561	PRJNA488534	SAMN09935318	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768561/quant.sf.gz
+SRR7768564	PRJNA488534	SAMN09935301	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768564/quant.sf.gz
+SRR7768567	PRJNA488534	SAMN09935302	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768567/quant.sf.gz
+SRR7768570	PRJNA488534	SAMN09935307	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768570/quant.sf.gz
+SRR7768573	PRJNA488534	SAMN09935329	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768573/quant.sf.gz
+SRR7768576	PRJNA488534	SAMN09935320	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768576/quant.sf.gz
+SRR7768579	PRJNA488534	SAMN09935327	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR7768579/quant.sf.gz
+SRR8418242	PRJNA513863	SAMN10714431	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418242/quant.sf.gz
+SRR8418250	PRJNA513863	SAMN10714709	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418250/quant.sf.gz
+SRR8418259	PRJNA513863	SAMN10714700	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418259/quant.sf.gz
+SRR8418265	PRJNA513863	SAMN10714317	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418265/quant.sf.gz
+SRR8418274	PRJNA513863	SAMN10714313	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418274/quant.sf.gz
+SRR8418277	PRJNA513863	SAMN10714310	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418277/quant.sf.gz
+SRR8418286	PRJNA513863	SAMN10714382	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418286/quant.sf.gz
+SRR8418289	PRJNA513863	SAMN10714379	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418289/quant.sf.gz
+SRR8418292	PRJNA513863	SAMN10714376	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418292/quant.sf.gz
+SRR8418296	PRJNA513863	SAMN10714372	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418296/quant.sf.gz
+SRR8418308	PRJNA513863	SAMN10714675	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418308/quant.sf.gz
+SRR8418321	PRJNA513863	SAMN10714442	bud	True	True	True	bud	source_addenda/B_atlas_salmon/quant/SRR8418321/quant.sf.gz
+SRR8933117	PRJNA533855	SAMN11469763	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933117/quant.sf.gz
+SRR8933121	PRJNA533855	SAMN11469765	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933121/quant.sf.gz
+SRR8933123	PRJNA533855	SAMN11469764	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933123/quant.sf.gz
+SRR8933125	PRJNA533855	SAMN11469764	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933125/quant.sf.gz
+SRR8933127	PRJNA533855	SAMN11469757	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933127/quant.sf.gz
+SRR8933129	PRJNA533855	SAMN11469758	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933129/quant.sf.gz
+SRR8933131	PRJNA533855	SAMN11469758	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933131/quant.sf.gz
+SRR8933133	PRJNA533855	SAMN11469759	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933133/quant.sf.gz
+SRR8933135	PRJNA533855	SAMN11469756	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933135/quant.sf.gz
+SRR8933139	PRJNA533855	SAMN11469756	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933139/quant.sf.gz
+SRR8933145	PRJNA533855	SAMN11469762	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933145/quant.sf.gz
+SRR8933147	PRJNA533855	SAMN11469763	seed / zygotic embryo	True	True	True	seed / zygotic embryo	source_addenda/B_atlas_salmon/quant/SRR8933147/quant.sf.gz
+SRR8979775	PRJNA539964	SAMN11518832	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979775/quant.sf.gz
+SRR8979781	PRJNA539964	SAMN11518829	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979781/quant.sf.gz
+SRR8979787	PRJNA539964	SAMN11518826	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979787/quant.sf.gz
+SRR8979793	PRJNA539964	SAMN11518821	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979793/quant.sf.gz
+SRR8979799	PRJNA539964	SAMN11518818	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979799/quant.sf.gz
+SRR8979805	PRJNA539964	SAMN11518816	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979805/quant.sf.gz
+SRR8979811	PRJNA539964	SAMN11518813	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979811/quant.sf.gz
+SRR8979817	PRJNA539964	SAMN11518811	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979817/quant.sf.gz
+SRR8979823	PRJNA539964	SAMN11518808	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979823/quant.sf.gz
+SRR8979829	PRJNA539964	SAMN11518806	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979829/quant.sf.gz
+SRR8979835	PRJNA539964	SAMN11518804	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979835/quant.sf.gz
+SRR8979841	PRJNA539964	SAMN11518802	berry / fruit	True	True	True	berry / fruit	source_addenda/B_atlas_salmon/quant/SRR8979841/quant.sf.gz
+SRR9640374	PRJNA552475	SAMN12210942	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR9640374/quant.sf.gz
+SRR9640375	PRJNA552475	SAMN12210941	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR9640375/quant.sf.gz
+SRR9640376	PRJNA552475	SAMN12210940	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR9640376/quant.sf.gz
+SRR9640377	PRJNA552475	SAMN12210939	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR9640377/quant.sf.gz
+SRR9640378	PRJNA552475	SAMN12210938	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR9640378/quant.sf.gz
+SRR9640379	PRJNA552475	SAMN12210937	flower / inflorescence	True	True	True	flower / inflorescence	source_addenda/B_atlas_salmon/quant/SRR9640379/quant.sf.gz
+SRR9640380	PRJNA552475	SAMN12210936	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR9640380/quant.sf.gz
+SRR9640381	PRJNA552475	SAMN12210935	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR9640381/quant.sf.gz
+SRR9640382	PRJNA552475	SAMN12210934	callus / cell culture	True	True	True	other callus / cell culture	source_addenda/B_atlas_salmon/quant/SRR9640382/quant.sf.gz
+SRR9640383	PRJNA552475	SAMN12210933	undifferentiated callus, 40 d (Sangiovese)	True	True	True	undifferentiated callus, 40 d (Sangiovese)	source_addenda/B_atlas_salmon/quant/SRR9640383/quant.sf.gz
+SRR9640384	PRJNA552475	SAMN12210932	undifferentiated callus, 40 d (Sangiovese)	True	True	True	undifferentiated callus, 40 d (Sangiovese)	source_addenda/B_atlas_salmon/quant/SRR9640384/quant.sf.gz
+SRR9640385	PRJNA552475	SAMN12210931	undifferentiated callus, 40 d (Sangiovese)	True	True	True	undifferentiated callus, 40 d (Sangiovese)	source_addenda/B_atlas_salmon/quant/SRR9640385/quant.sf.gz
+SRR9640386	PRJNA552475	SAMN12210930	non-embryogenic callus	True	True	True	non-embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640386/quant.sf.gz
+SRR9640387	PRJNA552475	SAMN12210929	non-embryogenic callus	True	True	True	non-embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640387/quant.sf.gz
+SRR9640388	PRJNA552475	SAMN12210928	non-embryogenic callus	True	True	True	non-embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640388/quant.sf.gz
+SRR9640389	PRJNA552475	SAMN12210927	non-embryogenic callus	True	True	True	non-embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640389/quant.sf.gz
+SRR9640390	PRJNA552475	SAMN12210926	non-embryogenic callus	True	True	True	non-embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640390/quant.sf.gz
+SRR9640391	PRJNA552475	SAMN12210925	non-embryogenic callus	True	True	True	non-embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640391/quant.sf.gz
+SRR9640392	PRJNA552475	SAMN12210924	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640392/quant.sf.gz
+SRR9640393	PRJNA552475	SAMN12210923	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640393/quant.sf.gz
+SRR9640394	PRJNA552475	SAMN12210922	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640394/quant.sf.gz
+SRR9640395	PRJNA552475	SAMN12210921	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640395/quant.sf.gz
+SRR9640396	PRJNA552475	SAMN12210920	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640396/quant.sf.gz
+SRR9640397	PRJNA552475	SAMN12210943	embryogenic callus	True	True	True	embryogenic callus	source_addenda/B_atlas_salmon/quant/SRR9640397/quant.sf.gz
+SRR9970440	PRJNA560314	SAMN12575240	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR9970440/quant.sf.gz
+SRR9970441	PRJNA560314	SAMN12575241	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR9970441/quant.sf.gz
+SRR9970442	PRJNA560314	SAMN12575238	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR9970442/quant.sf.gz
+SRR9970443	PRJNA560314	SAMN12575239	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR9970443/quant.sf.gz
+SRR9970444	PRJNA560314	SAMN12575236	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR9970444/quant.sf.gz
+SRR9970445	PRJNA560314	SAMN12575237	stem / cane / xylem / phloem	True	True	True	stem / cane / xylem / phloem	source_addenda/B_atlas_salmon/quant/SRR9970445/quant.sf.gz
+SRR9970448	PRJNA560314	SAMN12575230	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR9970448/quant.sf.gz
+SRR9970449	PRJNA560314	SAMN12575231	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR9970449/quant.sf.gz
+SRR9970452	PRJNA560314	SAMN12575226	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR9970452/quant.sf.gz
+SRR9970454	PRJNA560314	SAMN12575224	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR9970454/quant.sf.gz
+SRR9970455	PRJNA560314	SAMN12575225	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR9970455/quant.sf.gz
+SRR9970456	PRJNA560314	SAMN12575232	leaf	True	True	True	leaf	source_addenda/B_atlas_salmon/quant/SRR9970456/quant.sf.gz

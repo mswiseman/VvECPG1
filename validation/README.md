@@ -1,0 +1,11 @@
+# Validation and cleanup scope — 10 November 2026
+
+This repository removes packaging history/diffs, duplicate documentation/logs, internal report generators, superseded exploratory networks/time analyses, duplicate old atlas/hormone plot implementations, unused optional haplotype helpers and interpreter/OS caches. They remain in earlier local packages or the complete archive. No manuscript input matrix, statistical threshold, seed, signature, partner set or scientific result was changed.
+
+The final repository retains 26 Python scripts, 19 R scripts and nine shell scripts, plus the Makefile/Snakefile/configuration/environment files. Syntax checks passed. Supported Makefile, Snakefile and literal R source dependencies resolve (22 checked paths). Dependency review also added the existing `ranged_fetch.sh` reference-download helper missing from the prior GitHub package.
+
+A clean temporary copy restored and verified all 2,301 full-archive input/source files, staged the upstream workspace successfully, and passed 46 co-expression checks, 57 functional checks and the ten-test focal hormone verification. Scientific core scripts are byte-identical to the preceding GitHub package; only the runner's redundant archival-check command was removed. `coexpression_checks.tsv` and `functional_checks.tsv` retain machine-readable numerical checks. `execution_environment.txt` records prior plot/reconstruction environments; original fitting/tool versions remain in the data archive and upstream environment records.
+
+The full package previously reproduced all 641 focal atlas measurements and 597 BioSample medians, the programme scores/random-set medians and the 49-row EA-box feature table. Fresh raw-read processing, DESeq2/signature fitting, technical adjustment, the complete discovery/functional permutation workflows, optional programme bootstrap, full external homology searches and new predictor submissions were not executed in this cleanup. Wet-laboratory assay calculations are outside this package's scope.
+
+The separate complete ZIP and all prior source packages are unchanged. The full ZIP intentionally retains historical provenance and optional checkpoints beyond the minimum data needed for any single result. Those archived files are restored as ignored data, not committed repository files.

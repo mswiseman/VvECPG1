@@ -1,0 +1,7 @@
+Hormone/programme plotting: 3.10.10 | packaged by conda-forge | (main, Mar 24 2023, 20:12:31) [Clang 14.0.6 ]
+numpy 1.24.3
+pandas 2.2.2
+matplotlib 3.7.1
+Atlas reconstruction: 3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]
+numpy 2.3.5
+pandas 2.2.3

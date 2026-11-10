@@ -1,0 +1,9 @@
+# Local executor inside ONE SLURM allocation (scripts/run_in_allocation.sh). cores = allocation size.
+cores: 48
+resources: [slots=48, mem_mb=300000]
+default-resources: [mem_mb=4000, runtime=120, slots=1]
+rerun-incomplete: true
+keep-going: true
+printshellcmds: true
+show-failed-logs: true
+latency-wait: 30

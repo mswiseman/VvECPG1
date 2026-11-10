@@ -1,0 +1,6 @@
+# Optional plotting/atlas/protein-similarity tools.
+# See validation/execution_environment.txt and original source environment records.
+numpy
+pandas
+matplotlib
+biopython

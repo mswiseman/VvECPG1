@@ -1,0 +1,47 @@
+check	passed
+90 treated discovery samples / 30 groups	TRUE
+27 independent validation samples / 9 groups	TRUE
+Focal excluded from signature	TRUE
+Within-group matrix rows have zero group means	TRUE
+Direct Pearson r Vitvi05_01chr01g00130	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g00130	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g00130	TRUE
+Direct Pearson r Vitvi05_01chr01g00390	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g00390	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g00390	TRUE
+Direct Pearson r Vitvi05_01chr01g00490	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g00490	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g00490	TRUE
+Direct Pearson r Vitvi05_01chr01g00560	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g00560	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g00560	TRUE
+Direct Pearson r Vitvi05_01chr01g00730	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g00730	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g00730	TRUE
+Direct Pearson r Vitvi05_01chr01g00810	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g00810	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g00810	TRUE
+Direct Pearson r Vitvi05_01chr01g00870	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g00870	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g00870	TRUE
+Direct Pearson r Vitvi05_01chr01g00950	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g00950	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g00950	TRUE
+Direct Pearson r Vitvi05_01chr01g01010	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g01010	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g01010	TRUE
+Direct Pearson r Vitvi05_01chr01g01020	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g01020	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g01020	TRUE
+Direct Pearson r Vitvi05_01chr01g01260	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g01260	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g01260	TRUE
+Direct Pearson r Vitvi05_01chr01g01350	TRUE
+Leave-partner-out partial r Vitvi05_01chr01g01350	TRUE
+Leave-one-sample recomputes group means Vitvi05_01chr01g01350	TRUE
+Validation BH is over measured fixed candidates	TRUE
+Every replicated partner has matching sign and BH < 0.05	TRUE
+Replicated count	TRUE
+Independent sample identities unique	TRUE
+Signature all-library r reproduced	TRUE
+Legacy overlap matches the report	TRUE

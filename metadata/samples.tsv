@@ -1,0 +1,127 @@
+sample_uid	osid	vendor_sample_name	worksheet_sample_name	worksheet_row	replicate	hormone	dose_value	dose_unit	time_hours	batch	condition	group	is_control	control_label	fastq_path	metadata_confidence	notes
+PPPJ8P_1	1	T6ABA51	T6ABA51	3	1	ABA	5.0	mg/L	6	1	ABA_5mgL_6h	ABA_5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_1_T6ABA51.fastq.gz	high	
+PPPJ8P_2	2	T6ABA52	T6ABA52	4	2	ABA	5.0	mg/L	6	1	ABA_5mgL_6h	ABA_5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_2_T6ABA52.fastq.gz	high	
+PPPJ8P_3	3	T6ABA53	T6ABA53	5	3	ABA	5.0	mg/L	6	1	ABA_5mgL_6h	ABA_5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_3_T6ABA53.fastq.gz	high	
+PPPJ8P_4	4	T6ABA751	T6ABA751	6	1	ABA	7.5	mg/L	6	1	ABA_7p5mgL_6h	ABA_7p5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_4_T6ABA751.fastq.gz	high	
+PPPJ8P_5	5	T6ABA752	T6ABA752	7	2	ABA	7.5	mg/L	6	1	ABA_7p5mgL_6h	ABA_7p5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_5_T6ABA752.fastq.gz	high	
+PPPJ8P_6	6	T6ABA753	T6ABA753	8	3	ABA	7.5	mg/L	6	1	ABA_7p5mgL_6h	ABA_7p5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_6_T6ABA753.fastq.gz	high	
+PPPJ8P_7	7	T6ACC11	T6ACC11	9	1	ACC	1.0	mg/L	6	1	ACC_1mgL_6h	ACC_1mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_7_T6ACC11.fastq.gz	high	
+PPPJ8P_8	8	T6ACC12	T6ACC12	10	2	ACC	1.0	mg/L	6	1	ACC_1mgL_6h	ACC_1mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_8_T6ACC12.fastq.gz	high	
+PPPJ8P_9	9	T6ACC13	T6ACC13	11	3	ACC	1.0	mg/L	6	1	ACC_1mgL_6h	ACC_1mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_9_T6ACC13.fastq.gz	high	
+PPPJ8P_10	10	T6ACC251	T6ACC251	12	1	ACC	2.5	mg/L	6	1	ACC_2p5mgL_6h	ACC_2p5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_10_T6ACC251.fastq.gz	high	
+PPPJ8P_11	11	T6ACC252	T6ACC252	13	2	ACC	2.5	mg/L	6	1	ACC_2p5mgL_6h	ACC_2p5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_11_T6ACC252.fastq.gz	high	
+PPPJ8P_12	12	T6ACC253	T6ACC253	14	3	ACC	2.5	mg/L	6	1	ACC_2p5mgL_6h	ACC_2p5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_12_T6ACC253.fastq.gz	high	
+PPPJ8P_13	13	T6GA1	T6GA11	15	1	GA3	1.0	mg/L	6	1	GA3_1mgL_6h	GA3_1mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_13_T6GA1.fastq.gz	high	vendor spelling 'T6GA1' == worksheet 'T6GA11' (vendor_short_GA)
+PPPJ8P_14	14	T6GA2	T6GA12	16	2	GA3	1.0	mg/L	6	1	GA3_1mgL_6h	GA3_1mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_14_T6GA2.fastq.gz	high	vendor spelling 'T6GA2' == worksheet 'T6GA12' (vendor_short_GA)
+PPPJ8P_15	15	T6GA3	T6GA13	17	3	GA3	1.0	mg/L	6	1	GA3_1mgL_6h	GA3_1mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_15_T6GA3.fastq.gz	high	vendor spelling 'T6GA3' == worksheet 'T6GA13' (vendor_short_GA)
+PPPJ8P_16	16	T6GA21	T6GA21	18	1	GA3	2.0	mg/L	6	1	GA3_2mgL_6h	GA3_2mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_16_T6GA21.fastq.gz	high	
+PPPJ8P_17	17	T6GA22	T6GA22	19	2	GA3	2.0	mg/L	6	1	GA3_2mgL_6h	GA3_2mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_17_T6GA22.fastq.gz	high	
+PPPJ8P_18	18	T6GA23	T6GA23	20	3	GA3	2.0	mg/L	6	1	GA3_2mgL_6h	GA3_2mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_18_T6GA23.fastq.gz	high	
+PPPJ8P_19	19	T6MeJA751	T6MeJA751	21	1	MeJA	75.0	uM	6	1	MeJA_75uM_6h	MeJA_75uM_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_19_T6MeJA751.fastq.gz	high	
+PPPJ8P_20	20	T6MeJA752	T6MeJA752	22	2	MeJA	75.0	uM	6	1	MeJA_75uM_6h	MeJA_75uM_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_20_T6MeJA752.fastq.gz	high	
+PPPJ8P_21	21	T6MeJA753	T6MeJA753	23	3	MeJA	75.0	uM	6	1	MeJA_75uM_6h	MeJA_75uM_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_21_T6MeJA753.fastq.gz	high	
+PPPJ8P_22	22	T6MeJA1001	T6MeJA1001	24	1	MeJA	100.0	uM	6	1	MeJA_100uM_6h	MeJA_100uM_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_22_T6MeJA1001.fastq.gz	high	
+PPPJ8P_23	23	T6MeJA1002	T6MeJA1002	25	2	MeJA	100.0	uM	6	1	MeJA_100uM_6h	MeJA_100uM_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_23_T6MeJA1002.fastq.gz	high	
+PPPJ8P_24	24	T6MeJA1003	T6MeJA1003	26	3	MeJA	100.0	uM	6	1	MeJA_100uM_6h	MeJA_100uM_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_24_T6MeJA1003.fastq.gz	high	
+PPPJ8P_25	25	T6NAA51	T6NAA51	27	1	NAA	5.0	mg/L	6	1	NAA_5mgL_6h	NAA_5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_25_T6NAA51.fastq.gz	high	
+PPPJ8P_26	26	T6NAA52	T6NAA52	28	2	NAA	5.0	mg/L	6	1	NAA_5mgL_6h	NAA_5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_26_T6NAA52.fastq.gz	high	
+PPPJ8P_27	27	T6NAA53	T6NAA53	29	3	NAA	5.0	mg/L	6	1	NAA_5mgL_6h	NAA_5mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_27_T6NAA53.fastq.gz	high	
+PPPJ8P_28	28	T6NAA101	T6NAA101	30	1	NAA	10.0	mg/L	6	1	NAA_10mgL_6h	NAA_10mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_28_T6NAA101.fastq.gz	high	
+PPPJ8P_29	29	T6NAA102	T6NAA102	31	2	NAA	10.0	mg/L	6	1	NAA_10mgL_6h	NAA_10mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_29_T6NAA102.fastq.gz	high	
+PPPJ8P_30	30	T6NAA103	T6NAA103	32	3	NAA	10.0	mg/L	6	1	NAA_10mgL_6h	NAA_10mgL_6h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_30_T6NAA103.fastq.gz	high	
+PPPJ8P_31	31	T12ABA51	T12ABA51	33	1	ABA	5.0	mg/L	12	1	ABA_5mgL_12h	ABA_5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_31_T12ABA51.fastq.gz	high	
+PPPJ8P_32	32	T12ABA52	T12ABA52	34	2	ABA	5.0	mg/L	12	1	ABA_5mgL_12h	ABA_5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_32_T12ABA52.fastq.gz	high	
+PPPJ8P_33	33	T12ABA53	T12ABA53	35	3	ABA	5.0	mg/L	12	1	ABA_5mgL_12h	ABA_5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_33_T12ABA53.fastq.gz	high	
+PPPJ8P_34	34	T12ABA751	T12ABA751	36	1	ABA	7.5	mg/L	12	1	ABA_7p5mgL_12h	ABA_7p5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_34_T12ABA751.fastq.gz	high	
+PPPJ8P_35	35	T12ABA752	T12ABA752	37	2	ABA	7.5	mg/L	12	1	ABA_7p5mgL_12h	ABA_7p5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_35_T12ABA752.fastq.gz	high	
+PPPJ8P_36	36	T12ABA753	T12ABA753	38	3	ABA	7.5	mg/L	12	1	ABA_7p5mgL_12h	ABA_7p5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_36_T12ABA753.fastq.gz	high	
+PPPJ8P_37	37	T12ACC11	T12ACC11	39	1	ACC	1.0	mg/L	12	1	ACC_1mgL_12h	ACC_1mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_37_T12ACC11.fastq.gz	high	
+PPPJ8P_38	38	T12ACC12	T12ACC12	40	2	ACC	1.0	mg/L	12	1	ACC_1mgL_12h	ACC_1mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_38_T12ACC12.fastq.gz	high	
+PPPJ8P_39	39	T12ACC13	T12ACC13	41	3	ACC	1.0	mg/L	12	1	ACC_1mgL_12h	ACC_1mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_39_T12ACC13.fastq.gz	high	
+PPPJ8P_40	40	T12ACC251	T12ACC251	42	1	ACC	2.5	mg/L	12	1	ACC_2p5mgL_12h	ACC_2p5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_40_T12ACC251.fastq.gz	high	
+PPPJ8P_41	41	T12ACC252	T12ACC252	43	2	ACC	2.5	mg/L	12	1	ACC_2p5mgL_12h	ACC_2p5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_41_T12ACC252.fastq.gz	high	
+PPPJ8P_42	42	T12ACC253	T12ACC253	44	3	ACC	2.5	mg/L	12	1	ACC_2p5mgL_12h	ACC_2p5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_42_T12ACC253.fastq.gz	high	
+PPPJ8P_43	43	T12GA1	T12GA11	45	1	GA3	1.0	mg/L	12	1	GA3_1mgL_12h	GA3_1mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_43_T12GA1.fastq.gz	high	vendor spelling 'T12GA1' == worksheet 'T12GA11' (vendor_short_GA)
+PPPJ8P_44	44	T12GA2	T12GA12	46	2	GA3	1.0	mg/L	12	1	GA3_1mgL_12h	GA3_1mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_44_T12GA2.fastq.gz	high	vendor spelling 'T12GA2' == worksheet 'T12GA12' (vendor_short_GA)
+PPPJ8P_45	45	T12GA3	T12GA13	47	3	GA3	1.0	mg/L	12	1	GA3_1mgL_12h	GA3_1mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_45_T12GA3.fastq.gz	high	vendor spelling 'T12GA3' == worksheet 'T12GA13' (vendor_short_GA)
+PPPJ8P_46	46	T12GA21	T12GA21	48	1	GA3	2.0	mg/L	12	1	GA3_2mgL_12h	GA3_2mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_46_T12GA21.fastq.gz	high	
+PPPJ8P_47	47	T12GA22	T12GA22	49	2	GA3	2.0	mg/L	12	1	GA3_2mgL_12h	GA3_2mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_47_T12GA22.fastq.gz	high	
+PPPJ8P_48	48	T12GA23	T12GA23	50	3	GA3	2.0	mg/L	12	1	GA3_2mgL_12h	GA3_2mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_48_T12GA23.fastq.gz	high	
+PPPJ8P_49	49	T12MeJA751	T12MeJA751	51	1	MeJA	75.0	uM	12	1	MeJA_75uM_12h	MeJA_75uM_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_49_T12MeJA751.fastq.gz	high	
+PPPJ8P_50	50	T12MeJA752	T12MeJA752	52	2	MeJA	75.0	uM	12	1	MeJA_75uM_12h	MeJA_75uM_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_50_T12MeJA752.fastq.gz	high	
+PPPJ8P_51	51	T12MeJA753	T12MeJA753	53	3	MeJA	75.0	uM	12	1	MeJA_75uM_12h	MeJA_75uM_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_51_T12MeJA753.fastq.gz	high	
+PPPJ8P_52	52	T12MeJA1001	T12MeJA1001	54	1	MeJA	100.0	uM	12	1	MeJA_100uM_12h	MeJA_100uM_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_52_T12MeJA1001.fastq.gz	high	
+PPPJ8P_53	53	T12MeJA1002	T12MeJA1002	55	2	MeJA	100.0	uM	12	1	MeJA_100uM_12h	MeJA_100uM_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_53_T12MeJA1002.fastq.gz	high	
+PPPJ8P_54	54	T12MeJA1003	T12MeJA1003	56	3	MeJA	100.0	uM	12	1	MeJA_100uM_12h	MeJA_100uM_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_54_T12MeJA1003.fastq.gz	high	
+PPPJ8P_55	55	T12NAA51	T12NAA51	57	1	NAA	5.0	mg/L	12	1	NAA_5mgL_12h	NAA_5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_55_T12NAA51.fastq.gz	high	
+PPPJ8P_56	56	T12NAA52	T12NAA52	58	2	NAA	5.0	mg/L	12	1	NAA_5mgL_12h	NAA_5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_56_T12NAA52.fastq.gz	high	
+PPPJ8P_57	57	T12NAA53	T12NAA53	59	3	NAA	5.0	mg/L	12	1	NAA_5mgL_12h	NAA_5mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_57_T12NAA53.fastq.gz	high	
+PPPJ8P_58	58	T12NAA101	T12NAA101	60	1	NAA	10.0	mg/L	12	1	NAA_10mgL_12h	NAA_10mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_58_T12NAA101.fastq.gz	high	
+PPPJ8P_59	59	T12NAA102	T12NAA102	61	2	NAA	10.0	mg/L	12	1	NAA_10mgL_12h	NAA_10mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_59_T12NAA102.fastq.gz	high	
+PPPJ8P_60	60	T12NAA103	T12NAA103	62	3	NAA	10.0	mg/L	12	1	NAA_10mgL_12h	NAA_10mgL_12h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_60_T12NAA103.fastq.gz	high	
+PPPJ8P_61	61	T24ABA51	T24ABA51	63	1	ABA	5.0	mg/L	24	1	ABA_5mgL_24h	ABA_5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_61_T24ABA51.fastq.gz	high	
+PPPJ8P_62	62	T24ABA52	T24ABA52	64	2	ABA	5.0	mg/L	24	1	ABA_5mgL_24h	ABA_5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_62_T24ABA52.fastq.gz	high	
+PPPJ8P_63	63	T24ABA53	T24ABA53	65	3	ABA	5.0	mg/L	24	1	ABA_5mgL_24h	ABA_5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_63_T24ABA53.fastq.gz	high	
+PPPJ8P_64	64	T24ABA751	T24ABA751	66	1	ABA	7.5	mg/L	24	1	ABA_7p5mgL_24h	ABA_7p5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_64_T24ABA751.fastq.gz	high	
+PPPJ8P_65	65	T24ABA752	T24ABA752	67	2	ABA	7.5	mg/L	24	1	ABA_7p5mgL_24h	ABA_7p5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_65_T24ABA752.fastq.gz	high	
+PPPJ8P_66	66	T24ABA753	T24ABA753	68	3	ABA	7.5	mg/L	24	1	ABA_7p5mgL_24h	ABA_7p5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_66_T24ABA753.fastq.gz	high	
+PPPJ8P_67	67	T24ACC11	T24ACC11	69	1	ACC	1.0	mg/L	24	1	ACC_1mgL_24h	ACC_1mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_67_T24ACC11.fastq.gz	high	
+PPPJ8P_68	68	T24ACC12	T24ACC12	70	2	ACC	1.0	mg/L	24	1	ACC_1mgL_24h	ACC_1mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_68_T24ACC12.fastq.gz	high	
+PPPJ8P_69	69	T24ACC13	T24ACC13	71	3	ACC	1.0	mg/L	24	1	ACC_1mgL_24h	ACC_1mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_69_T24ACC13.fastq.gz	high	
+PPPJ8P_70	70	T24ACC251	T24ACC251	72	1	ACC	2.5	mg/L	24	1	ACC_2p5mgL_24h	ACC_2p5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_70_T24ACC251.fastq.gz	high	
+PPPJ8P_71	71	T24ACC252	T24ACC252	73	2	ACC	2.5	mg/L	24	1	ACC_2p5mgL_24h	ACC_2p5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_71_T24ACC252.fastq.gz	high	
+PPPJ8P_72	72	T24ACC253	T24ACC253	74	3	ACC	2.5	mg/L	24	1	ACC_2p5mgL_24h	ACC_2p5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_72_T24ACC253.fastq.gz	high	
+PPPJ8P_73	73	T24GA1	T24GA11	75	1	GA3	1.0	mg/L	24	1	GA3_1mgL_24h	GA3_1mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_73_T24GA1.fastq.gz	high	vendor spelling 'T24GA1' == worksheet 'T24GA11' (vendor_short_GA)
+PPPJ8P_74	74	T24GA2	T24GA12	76	2	GA3	1.0	mg/L	24	1	GA3_1mgL_24h	GA3_1mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_74_T24GA2.fastq.gz	high	vendor spelling 'T24GA2' == worksheet 'T24GA12' (vendor_short_GA)
+PPPJ8P_75	75	T24GA3	T24GA13	77	3	GA3	1.0	mg/L	24	1	GA3_1mgL_24h	GA3_1mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_75_T24GA3.fastq.gz	high	vendor spelling 'T24GA3' == worksheet 'T24GA13' (vendor_short_GA)
+PPPJ8P_76	76	T24GA21	T24GA21	78	1	GA3	2.0	mg/L	24	1	GA3_2mgL_24h	GA3_2mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_76_T24GA21.fastq.gz	high	
+PPPJ8P_77	77	T24GA22	T24GA22	79	2	GA3	2.0	mg/L	24	1	GA3_2mgL_24h	GA3_2mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_77_T24GA22.fastq.gz	high	
+PPPJ8P_78	78	T24GA23	T24GA23	80	3	GA3	2.0	mg/L	24	1	GA3_2mgL_24h	GA3_2mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_78_T24GA23.fastq.gz	high	
+PPPJ8P_79	79	T24MeJA751	T24MeJA751	81	1	MeJA	75.0	uM	24	1	MeJA_75uM_24h	MeJA_75uM_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_79_T24MeJA751.fastq.gz	high	
+PPPJ8P_80	80	T24MeJA752	T24MeJA752	82	2	MeJA	75.0	uM	24	1	MeJA_75uM_24h	MeJA_75uM_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_80_T24MeJA752.fastq.gz	high	
+PPPJ8P_81	81	T24MeJA753	T24MeJA753	83	3	MeJA	75.0	uM	24	1	MeJA_75uM_24h	MeJA_75uM_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_81_T24MeJA753.fastq.gz	high	
+PPPJ8P_82	82	T24MeJA1001	T24MeJA1001	84	1	MeJA	100.0	uM	24	1	MeJA_100uM_24h	MeJA_100uM_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_82_T24MeJA1001.fastq.gz	high	
+PPPJ8P_83	83	T24MeJA1002	T24MeJA1002	85	2	MeJA	100.0	uM	24	1	MeJA_100uM_24h	MeJA_100uM_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_83_T24MeJA1002.fastq.gz	high	
+PPPJ8P_84	84	T24MeJA1003	T24MeJA1003	86	3	MeJA	100.0	uM	24	1	MeJA_100uM_24h	MeJA_100uM_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_84_T24MeJA1003.fastq.gz	high	
+PPPJ8P_85	85	T24NAA51	T24NAA51	87	1	NAA	5.0	mg/L	24	1	NAA_5mgL_24h	NAA_5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_85_T24NAA51.fastq.gz	high	
+PPPJ8P_86	86	T24NAA52	T24NAA52	88	2	NAA	5.0	mg/L	24	1	NAA_5mgL_24h	NAA_5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_86_T24NAA52.fastq.gz	high	
+PPPJ8P_87	87	T24NAA53	T24NAA53	89	3	NAA	5.0	mg/L	24	1	NAA_5mgL_24h	NAA_5mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_87_T24NAA53.fastq.gz	high	
+PPPJ8P_88	88	T24NAA101	T24NAA101	90	1	NAA	10.0	mg/L	24	1	NAA_10mgL_24h	NAA_10mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_88_T24NAA101.fastq.gz	high	
+PPPJ8P_89	89	T24NAA102	T24NAA102	91	2	NAA	10.0	mg/L	24	1	NAA_10mgL_24h	NAA_10mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_89_T24NAA102.fastq.gz	high	
+PPPJ8P_90	90	T24NAA103	T24NAA103	92	3	NAA	10.0	mg/L	24	1	NAA_10mgL_24h	NAA_10mgL_24h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_90_T24NAA103.fastq.gz	high	
+PPPJ8P_91	91	T7DABA51	T7DABA51	93	1	ABA	5.0	mg/L	168	1	ABA_5mgL_168h	ABA_5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_91_T7DABA51.fastq.gz	high	
+PPPJ8P_92	92	T7DABA52	T7DABA52	94	2	ABA	5.0	mg/L	168	1	ABA_5mgL_168h	ABA_5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_92_T7DABA52.fastq.gz	high	
+PPPJ8P_93	93	T7DABA53	T7DABA53	95	3	ABA	5.0	mg/L	168	1	ABA_5mgL_168h	ABA_5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_93_T7DABA53.fastq.gz	high	
+PPPJ8P_94	94	C1	C1	96	1	none	0.0		unknown	1	control	control_b1	True	C1	/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_94_C1.fastq.gz	unresolved	control: exposure/collection time NOT recorded
+PPPJ8P_95	95	C2	C2	97	2	none	0.0		unknown	1	control	control_b1	True	C2	/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_95_C2.fastq.gz	unresolved	control: exposure/collection time NOT recorded
+PPPJ8P_96	96	C3	C3	98	3	none	0.0		unknown	1	control	control_b1	True	C3	/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_96_C3.fastq.gz	unresolved	control: exposure/collection time NOT recorded
+PPPJ8P_97	97	T7DABA751	T7DABA751	99	1	ABA	7.5	mg/L	168	2	ABA_7p5mgL_168h	ABA_7p5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_97_T7DABA751.fastq.gz	medium	hormone cell blank (merged range with empty value); hormone taken from name
+PPPJ8P_98	98	T7DABA752	T7DABA752	100	2	ABA	7.5	mg/L	168	2	ABA_7p5mgL_168h	ABA_7p5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_98_T7DABA752.fastq.gz	medium	hormone cell blank (merged range with empty value); hormone taken from name
+PPPJ8P_99	99	T7DABA753	T7DABA753	101	3	ABA	7.5	mg/L	168	2	ABA_7p5mgL_168h	ABA_7p5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_99_T7DABA753.fastq.gz	medium	hormone cell blank (merged range with empty value); hormone taken from name
+PPPJ8P_100	100	T7DACC11	T7DACC11	102	1	ACC	1.0	mg/L	168	2	ACC_1mgL_168h	ACC_1mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_100_T7DACC11.fastq.gz	high	
+PPPJ8P_101	101	T7DACC12	T7DACC12	103	2	ACC	1.0	mg/L	168	2	ACC_1mgL_168h	ACC_1mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_101_T7DACC12.fastq.gz	high	
+PPPJ8P_102	102	T7DACC13	T7DACC13	104	3	ACC	1.0	mg/L	168	2	ACC_1mgL_168h	ACC_1mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_102_T7DACC13.fastq.gz	high	
+PPPJ8P_103	103	T7DACC251	T7DACC251	105	1	ACC	2.5	mg/L	168	2	ACC_2p5mgL_168h	ACC_2p5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_103_T7DACC251.fastq.gz	high	
+PPPJ8P_104	104	T7DACC252	T7DACC252	106	2	ACC	2.5	mg/L	168	2	ACC_2p5mgL_168h	ACC_2p5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_104_T7DACC252.fastq.gz	high	
+PPPJ8P_105	105	T7DACC253	T7DACC253	107	3	ACC	2.5	mg/L	168	2	ACC_2p5mgL_168h	ACC_2p5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_105_T7DACC253.fastq.gz	high	
+PPPJ8P_106	106	T7DGA1	T7DGA11	108	1	GA3	1.0	mg/L	168	2	GA3_1mgL_168h	GA3_1mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_106_T7DGA1.fastq.gz	high	vendor spelling 'T7DGA1' == worksheet 'T7DGA11' (vendor_short_GA)
+PPPJ8P_107	107	T7DGA2	T7DGA12	109	2	GA3	1.0	mg/L	168	2	GA3_1mgL_168h	GA3_1mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_107_T7DGA2.fastq.gz	high	vendor spelling 'T7DGA2' == worksheet 'T7DGA12' (vendor_short_GA)
+PPPJ8P_108	108	T7DGA3	T7DGA13	110	3	GA3	1.0	mg/L	168	2	GA3_1mgL_168h	GA3_1mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_108_T7DGA3.fastq.gz	high	vendor spelling 'T7DGA3' == worksheet 'T7DGA13' (vendor_short_GA)
+PPPJ8P_109	109	T7DGA21	T7DGA21	111	1	GA3	2.0	mg/L	168	2	GA3_2mgL_168h	GA3_2mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_109_T7DGA21.fastq.gz	high	
+PPPJ8P_110	110	T7DGA22	T7DGA22	112	2	GA3	2.0	mg/L	168	2	GA3_2mgL_168h	GA3_2mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_110_T7DGA22.fastq.gz	high	
+PPPJ8P_111	111	T7DGA23	T7DGA23	113	3	GA3	2.0	mg/L	168	2	GA3_2mgL_168h	GA3_2mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_111_T7DGA23.fastq.gz	high	
+PPPJ8P_112	112	T7DMeJA751	T7DMeJA751	114	1	MeJA	75.0	uM	168	2	MeJA_75uM_168h	MeJA_75uM_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_112_T7DMeJA751.fastq.gz	high	
+PPPJ8P_113	113	T7DMeJA752	T7DMeJA752	115	2	MeJA	75.0	uM	168	2	MeJA_75uM_168h	MeJA_75uM_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_113_T7DMeJA752.fastq.gz	high	
+PPPJ8P_114	114	T7DMeJA753	T7DMeJA753	116	3	MeJA	75.0	uM	168	2	MeJA_75uM_168h	MeJA_75uM_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_114_T7DMeJA753.fastq.gz	high	
+PPPJ8P_115	115	T7DMeJA1001	T7DMeJA1001	117	1	MeJA	100.0	uM	168	2	MeJA_100uM_168h	MeJA_100uM_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_115_T7DMeJA1001.fastq.gz	high	
+PPPJ8P_116	116	T7DMeJA1002	T7DMeJA1002	118	2	MeJA	100.0	uM	168	2	MeJA_100uM_168h	MeJA_100uM_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_116_T7DMeJA1002.fastq.gz	high	
+PPPJ8P_117	117	T7DMeJA1003	T7DMeJA1003	119	3	MeJA	100.0	uM	168	2	MeJA_100uM_168h	MeJA_100uM_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_117_T7DMeJA1003.fastq.gz	high	
+PPPJ8P_118	118	T7DNAA51	T7DNAA51	120	1	NAA	5.0	mg/L	168	2	NAA_5mgL_168h	NAA_5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_118_T7DNAA51.fastq.gz	high	
+PPPJ8P_119	119	T7DNAA52	T7DNAA52	121	2	NAA	5.0	mg/L	168	2	NAA_5mgL_168h	NAA_5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_119_T7DNAA52.fastq.gz	high	
+PPPJ8P_120	120	T7DNAA53	T7DNAA53	122	3	NAA	5.0	mg/L	168	2	NAA_5mgL_168h	NAA_5mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_120_T7DNAA53.fastq.gz	high	
+PPPJ8P_121	121	T7DNAA101	T7DNAA101	123	1	NAA	10.0	mg/L	168	2	NAA_10mgL_168h	NAA_10mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_121_T7DNAA101.fastq.gz	high	
+PPPJ8P_122	122	T7DNAA102	T7DNAA102	124	2	NAA	10.0	mg/L	168	2	NAA_10mgL_168h	NAA_10mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_122_T7DNAA102.fastq.gz	high	
+PPPJ8P_123	123	T7DNAA103	T7DNAA103	125	3	NAA	10.0	mg/L	168	2	NAA_10mgL_168h	NAA_10mgL_168h	False		/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_123_T7DNAA103.fastq.gz	high	
+PPPJ8P_124	124	C1	C1	126	1	none	0.0		unknown	2	control	control_b2	True	C1	/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_124_C1.fastq.gz	unresolved	control: exposure/collection time NOT recorded
+PPPJ8P_125	125	C2	C2	127	2	none	0.0		unknown	2	control	control_b2	True	C2	/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_125_C2.fastq.gz	unresolved	control: exposure/collection time NOT recorded
+PPPJ8P_126	126	C3	C3	128	3	none	0.0		unknown	2	control	control_b2	True	C3	/local/workdir/msw287/wegi_rnaseq/inputs/fastq/PPPJ8P_126_C3.fastq.gz	unresolved	control: exposure/collection time NOT recorded

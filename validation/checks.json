@@ -1,0 +1,12 @@
+{
+  "python_syntax_files": 26,
+  "shell_syntax_files": 9,
+  "supported_dependency_paths": 22,
+  "full_restore_check": "2301 files verified",
+  "upstream_staging": "passed",
+  "reference_results": "46 co-expression + 57 functional checks and ten focal hormone tests passed",
+  "scientific_core_scripts": "byte-identical to prior repository",
+  "reference_download_helper": "added from existing project source",
+  "original_packages": "unchanged",
+  "R_syntax_files": 19
+}

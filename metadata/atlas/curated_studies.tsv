@@ -1,0 +1,52 @@
+study_accession	tissue_class_override	keep_classes	control_only	max_runs	cultivar_override	exclude_reason	note	class_basis
+PRJNA552475			no	40			EC / non-EC / undifferentiated callus / anther explant; somatic embryogenesis (Cab. Sauv., Sangiovese)	
+PRJNA691261			no	40			Chardonnay embryogenic callus + leaf	
+PRJNA732451			no	27			embryogenic callus (TE activation study)	
+PRJNA980588			no	40	Malvasia Istriana		somatic embryo stages (hourglass); cultivar Malvasia Istriana (user, 2026-11-07; blank in ENA)	
+PRJNA1144781			no	12			callus, sucrose levels	
+PRJNA1048521			yes	12			suspension cells; salinity study -> controls only	
+PRJNA667148			yes	12			cells; endophytic fungi study -> controls only	
+PRJNA1213010			yes	12			berry-flesh calli; jasmonate study -> controls only	
+PRJNA448744		flower / inflorescence	no	12			Tempranillo flower	
+PRJNA736298		flower / inflorescence	no	12			Pinot noir flower	
+PRJNA915781		flower / inflorescence	no	12			inflorescence elongation	
+PRJNA1049331		seed / zygotic embryo	no	12			seed	
+PRJNA1151140		seed / zygotic embryo	no	12			Merlot seed	
+PRJNA338255		seed / zygotic embryo	no	12			seed	
+PRJNA533855		seed / zygotic embryo	no	12			seed	
+PRJNA394737		berry / fruit	no	12			Pinot noir pericarp	
+PRJNA412324		berry / fruit	no	12			Cab. Sauv. pericarp	
+PRJNA477842		berry / fruit	no	12			Nebbiolo berries	
+PRJNA539964		berry / fruit	no	12			Muscat cultivars, 3 stages	
+PRJNA722600	berry / fruit		no	12			skin+pulp -> whole berry	
+PRJNA862686	berry / fruit		no	12			single-berry skin+pulp -> whole berry	
+PRJEB60837		berry skin,berry pulp / flesh	no	24			Garnacha/Tempranillo skin and flesh	
+PRJNA260535		berry skin	no	12			5 cultivars berry skin	
+PRJNA1493293	berry skin		no	12			Summer Black skin (was mislabelled flesh)	
+PRJNA698673		berry pulp / flesh	no	12			red/white flesh	
+PRJNA488534		bud	no	12			bud dormancy	
+PRJNA513863		bud	no	12			dormant bud (vinifera runs only via QC filter)	
+PRJNA1478002		bud	no	12			Riesling / Cab. Franc buds	
+PRJNA149115		tendril	no	12			Pinot Meunier tendril	
+PRJNA373967		tendril,leaf	no	24			many cultivars, leaf + tendril	
+PRJNA999922		leaf,root	no	24			Cab. Sauv. leaf + root	
+PRJNA1070606		leaf	yes	12			PN40024 leaf; herbivory study -> controls only	
+PRJNA560314		leaf,stem / cane / xylem / phloem	no	24			leaf + stem	
+PRJNA1455389		leaf	no	12			Xynisteri & Chardonnay leaves	
+PRJDB5807		leaf,stem / cane / xylem / phloem	no	24			Koshu / Pinot noir leaf + stem	
+PRJNA1068036		root	no	12			root	
+PRJNA1122387		root	no	12			root	
+PRJDB28507		root,stem / cane / xylem / phloem	no	24			Cab. Sauv. root + stem (light quality)	
+PRJNA788660		root,stem / cane / xylem / phloem	no	24			Thompson Seedless root + stem	
+PRJNA808789		root	no	12			Muscat Hamburg root	
+PRJNA793284		stem / cane / xylem / phloem	no	12			phloem; Merlot only (V. amurensis removed by QC vinifera filter)	
+PRJNA307077	shoot apex		no	12			Chasselas shoot apex	
+PRJNA1181250		shoot / seedling / whole plant	no	12			shoot internodes	
+PRJNA283438		shoot / seedling / whole plant	no	12			Riesling young shoot	
+PRJNA821332	somatic embryo		no	40			2026-11-07 scale-up: Chardonnay cotyledonary somatic embryos, normal vs abnormal (VCE/ECE/NCE/FCE)	
+PRJNA1282087	unlabelled calli (inferred embryogenic)		no	40			2026-11-07 scale-up: grape calli used for transformation (ENA: tissue 'calli'; experiment titles 'Wild grape calli' / 'Grape calli transfected with empty vector'); WT + empty vector (overexpression lines excluded). 2026-11-08: shown as its OWN class, not merged with submitter-labelled embryogenic callus. Embryogenic state is INFERRED, partly from the focal-gene level itself (34k-50k TPM) plus the programme score, so it is not independent evidence of embryogenic specificity	inferred
+PRJNA1444213	callus / cell culture		yes	40			2026-11-07 scale-up: Thompson Seedless callus, CK only	
+PRJNA833286	callus / cell culture		no	40		EXCLUDED 2026-11-07 (user-approved): low-quality libraries - 6.5-8.5k genes > 1 TPM vs ~19k in sister study PRJNA1090268; top 100 genes = 55% of reads (31% there); UBQ, UBQ2, PP2A-A, GAPDH ~0 TPM while ACT1 ~1,000	2026-11-07 scale-up: Cabernet Sauvignon calli (ENA tissue says berry; experiment title says calli); wild type only	
+PRJNA1090268	callus / cell culture		no	40			2026-11-07 scale-up: Cabernet Sauvignon calli, wild type only	
+PRJNA1153273	callus / cell culture		no	40			2026-11-07 scale-up: Gamay Teinturier cell suspension (ethanol doses incl. 0)	
+PRJNA642001	callus / cell culture		no	40			2026-11-07 scale-up: Malvasia cultured cells (V. vinifera runs only)	

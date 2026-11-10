@@ -1,0 +1,227 @@
+# PPPJ8P grapevine 3' UMI RNA-seq: per-sample processing, counting and QC.
+# Run via Makefile targets (see README.md). All paths come from config/config.yaml.
+import pandas as pd
+from pathlib import Path
+
+configfile: "config/config.yaml"
+ROOT = config["project_root"]
+workdir: ROOT
+
+ENV = f"{ROOT}/envs/rnaseq/bin"
+SAMPLES = pd.read_csv("metadata/sample_manifest.tsv", sep="\t").set_index("sample_uid")
+ALL = list(SAMPLES.index)
+SMOKE = config["smoke_test_sample"]
+
+# alignment genomes: STAR index + annotation used for splice junctions/QC
+GENOMES = config["genomes"]
+# count sets: (genome whose BAMs are counted, GTF, feature types)
+COUNTSETS = config["countsets"]
+
+wildcard_constraints:
+    sid=r"PPPJ8P_\d+",
+    genome="|".join(GENOMES),
+    countset="|".join(COUNTSETS),
+    mode="primary|antisense|multimap|vendor_replica"
+
+
+def fastq(w):
+    return SAMPLES.loc[w.sid, "fastq_path"]
+
+
+def samples_for(genome):
+    return ALL if GENOMES[genome].get("all_samples", False) else [SMOKE]
+
+
+rule fastp:
+    input: fastq
+    output:
+        fq=temp("work/fastp/{sid}.fastq.gz"),
+        json="results/qc/fastp/{sid}.fastp.json",
+        html="results/qc/fastp/{sid}.fastp.html",
+    log: "logs/fastp/{sid}.log"
+    threads: config["fastp"]["threads"]
+    resources: slots=lambda w, threads: threads, mem_mb=8000, runtime=120
+    shell:
+        "{ENV}/fastp -i {input} -o {output.fq}.tmp.fastq.gz -w {threads} {config[fastp][args]} "
+        "-j {output.json} -h {output.html} 2> {log} && mv {output.fq}.tmp.fastq.gz {output.fq}"
+
+
+rule star_align:
+    input:
+        fq="work/fastp/{sid}.fastq.gz",
+        index=lambda w: GENOMES[w.genome]["star_index"] + "/SA",
+    output:
+        bam=temp("work/{genome}/star/{sid}/Aligned.sortedByCoord.out.bam"),
+        log_final="results/{genome}/qc/star/{sid}.Log.final.out",
+    params:
+        index=lambda w: GENOMES[w.genome]["star_index"],
+        prefix="work/{genome}/star/{sid}/",
+        extra=config["star"]["extra"],
+    log: "logs/{genome}/star/{sid}.log"
+    threads: config["star"]["threads"]
+    resources: slots=lambda w, threads: threads, mem_mb=config["star"]["mem_gb"] * 1000, runtime=240
+    shell:
+        "rm -rf {params.prefix}_STARtmp; "
+        "{ENV}/STAR --runThreadN {threads} --genomeDir {params.index} --readFilesIn {input.fq} "
+        "--readFilesCommand zcat --outFileNamePrefix {params.prefix} --outSAMtype BAM SortedByCoordinate "
+        "--limitBAMsortRAM 20000000000 {params.extra} > {log} 2>&1 && "
+        "cp {params.prefix}Log.final.out {output.log_final} && cp {params.prefix}Log.out logs/{wildcards.genome}/star/{wildcards.sid}.Log.out"
+
+
+rule umicollapse:
+    priority: 20
+    input: "work/{genome}/star/{sid}/Aligned.sortedByCoord.out.bam"
+    output:
+        bam="results/{genome}/bam/{sid}.dedup.bam",
+        bai="results/{genome}/bam/{sid}.dedup.bam.bai",
+    log: "logs/{genome}/umicollapse/{sid}.log"
+    threads: 2
+    resources: slots=2, mem_mb=32000, runtime=240
+    params: mem=config["umicollapse"]["java_mem"], algo=config["umicollapse"]["algo"], k=config["umicollapse"]["k"]
+    shell:
+        "mkdir -p work/tmp/umicollapse/{wildcards.genome}_{wildcards.sid} && "
+        "export TEMP=$PWD/work/tmp/umicollapse/{wildcards.genome}_{wildcards.sid} && "
+        "{ENV}/samtools index {input} && "
+        "{ENV}/umicollapse bam -Xms4g -Xmx{params.mem} -Djava.io.tmpdir=$TEMP -i {input} -o {output.bam}.tmp.bam --algo {params.algo} "
+        "-k {params.k} --umi-sep _ > {log} 2>&1 && "
+        "mv {output.bam}.tmp.bam {output.bam} && {ENV}/samtools index {output.bam}"
+
+
+rule idxstats:
+    priority: 10
+    input: "results/{genome}/bam/{sid}.dedup.bam"
+    output: "results/{genome}/qc/idxstats/{sid}.idxstats.tsv"
+    shell: "{ENV}/samtools idxstats {input} > {output}"
+
+
+def fc_args(w):
+    cs = COUNTSETS[w.countset]
+    common = f"-t {cs['feature_types']} -g gene_id"
+    strand = config["library"]["strandedness"]
+    return {
+        "primary": f"{common} -s {strand}",
+        "antisense": f"{common} -s {3 - strand}",
+        "multimap": f"{common} -s {strand} {config['featurecounts']['multimap_args']}",
+        "vendor_replica": f"{common} -s {strand} {config['featurecounts']['vendor_replica_args']}",
+    }[w.mode]
+
+
+def fc_bam(w):
+    cs = COUNTSETS[w.countset]
+    if cs.get("bam_source") == "vendor":
+        return SAMPLES.loc[w.sid, "vendor_bam"]
+    return f"results/{cs['genome']}/bam/{w.sid}.dedup.bam"
+
+
+rule featurecounts:
+    priority: 10
+    input:
+        bam=fc_bam,
+        gtf=lambda w: COUNTSETS[w.countset]["gtf"],
+    output:
+        counts="results/{countset}/counts/per_sample/{sid}.{mode}.txt",
+        summary="results/{countset}/counts/per_sample/{sid}.{mode}.txt.summary",
+    params: args=fc_args
+    log: "logs/{countset}/featurecounts/{sid}.{mode}.log"
+    threads: 2
+    resources: slots=2, mem_mb=4000, runtime=60
+    shell:
+        "{ENV}/featureCounts -T {threads} -a {input.gtf} {params.args} -o {output.counts}.tmp {input.bam} > {log} 2>&1 && "
+        "mv {output.counts}.tmp.summary {output.summary} && mv {output.counts}.tmp {output.counts}"
+
+
+def countset_samples(countset):
+    cs = COUNTSETS[countset]
+    if cs.get("bam_source") == "vendor":
+        return ALL
+    return samples_for(cs["genome"])
+
+
+rule merge_counts:
+    input: lambda w: expand("results/{{countset}}/counts/per_sample/{sid}.{{mode}}.txt", sid=countset_samples(w.countset))
+    output:
+        matrix="results/{countset}/counts/{countset}.{mode}.counts.tsv",
+        summary="results/{countset}/counts/{countset}.{mode}.assignment_summary.tsv",
+    shell: "{ENV}/python scripts/merge_counts.py --out {output.matrix} --summary-out {output.summary} {input}"
+
+
+rule three_prime:
+    priority: 10
+    input:
+        bam="results/{genome}/bam/{sid}.dedup.bam",
+        gtf=lambda w: GENOMES[w.genome]["gtf"],
+    output:
+        hist="results/{genome}/qc/three_prime/{sid}.three_prime_hist.tsv",
+        genes="results/{genome}/qc/three_prime/{sid}.gene_end_reads.tsv",
+        summ="results/{genome}/qc/three_prime/{sid}.three_prime_summary.tsv",
+    params: prefix="results/{genome}/qc/three_prime/{sid}"
+    resources: slots=1, mem_mb=8000, runtime=120
+    shell: "{ENV}/python scripts/three_prime_profile.py --bam {input.bam} --gtf {input.gtf} --sample {wildcards.sid} --out-prefix {params.prefix}"
+
+
+rule sample_qc:
+    input:
+        fastp="results/qc/fastp/{sid}.fastp.json",
+        star="results/{genome}/qc/star/{sid}.Log.final.out",
+        dedup="logs/{genome}/umicollapse/{sid}.log",
+        idx="results/{genome}/qc/idxstats/{sid}.idxstats.tsv",
+        fcp=lambda w: f"results/{GENOMES[w.genome]['qc_countset']}/counts/per_sample/{w.sid}.primary.txt.summary",
+        fca=lambda w: f"results/{GENOMES[w.genome]['qc_countset']}/counts/per_sample/{w.sid}.antisense.txt.summary",
+        tp="results/{genome}/qc/three_prime/{sid}.three_prime_summary.tsv",
+    output: "results/{genome}/qc/per_sample/{sid}.qc.tsv"
+    shell:
+        "{ENV}/python scripts/sample_qc.py --sample {wildcards.sid} --genome {wildcards.genome} --fastp {input.fastp} "
+        "--star-log {input.star} --dedup-log {input.dedup} --idxstats {input.idx} --fc-primary {input.fcp} "
+        "--fc-antisense {input.fca} --three-prime {input.tp} --out {output}"
+
+
+rule qc_table:
+    input: lambda w: expand("results/{{genome}}/qc/per_sample/{sid}.qc.tsv", sid=samples_for(w.genome))
+    output: "results/{genome}/qc/{genome}.per_sample_qc.tsv"
+    run:
+        pd.concat([pd.read_csv(f, sep="\t") for f in input]).to_csv(output[0], sep="\t", index=False)
+
+
+rule multiqc:
+    input:
+        qc="results/{genome}/qc/{genome}.per_sample_qc.tsv",
+    output: "results/{genome}/qc/multiqc/multiqc_report.html"
+    params:
+        dirs=lambda w: f"results/qc/fastp results/{w.genome}/qc/star logs/{w.genome}/star results/{GENOMES[w.genome]['qc_countset']}/counts/per_sample",
+    log: "logs/{genome}/multiqc.log"
+    shell:
+        "{ENV}/multiqc -f -o results/{wildcards.genome}/qc/multiqc -n multiqc_report.html {params.dirs} > {log} 2>&1"
+
+
+def genome_targets(genome):
+    cs_names = [c for c, v in COUNTSETS.items() if v.get("genome") == genome and v.get("bam_source") != "vendor"]
+    modes = ["primary", "antisense", "multimap", "vendor_replica"]
+    t = [f"results/{genome}/qc/{genome}.per_sample_qc.tsv", f"results/{genome}/qc/multiqc/multiqc_report.html"]
+    t += [f"results/{c}/counts/{c}.{m}.counts.tsv" for c in cs_names for m in modes]
+    return t
+
+
+SMOKE_GENOMES = ["pn_v51", "pn_v51_nuc", "pn_v51_chr00", "ensembl_r62"]
+
+
+rule smoke_test:
+    input:
+        expand("results/{g}/qc/per_sample/{sid}.qc.tsv", g=SMOKE_GENOMES, sid=[SMOKE]),
+        expand("results/{g}/qc/three_prime/{sid}.gene_end_reads.tsv", g=SMOKE_GENOMES, sid=[SMOKE]),
+        expand("results/{cs}/counts/per_sample/{sid}.{mode}.txt", cs=SMOKE_GENOMES,
+               sid=[SMOKE], mode=["primary", "antisense", "multimap", "vendor_replica"]),
+        expand("results/vendorbam_ensembl_r62/counts/per_sample/{sid}.vendor_replica.txt", sid=[SMOKE]),
+        expand("results/vendorbam_pn_v51/counts/per_sample/{sid}.{mode}.txt", sid=[SMOKE], mode=["primary", "vendor_replica"]),
+
+
+rule primary:
+    input:
+        genome_targets("pn_v51"),
+        "results/vendorbam_ensembl_r62/counts/vendorbam_ensembl_r62.vendor_replica.counts.tsv",
+        "results/vendorbam_pn_v51/counts/vendorbam_pn_v51.primary.counts.tsv",
+        "results/vendorbam_pn_v51/counts/vendorbam_pn_v51.vendor_replica.counts.tsv",
+
+
+rule chardonnay:
+    input:
+        [t for g in GENOMES if g.startswith("chard_") for t in genome_targets(g)]

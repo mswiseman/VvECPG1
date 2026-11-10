@@ -1,0 +1,14 @@
+# Snakemake 8 SLURM profile for cbsuusda5. `slots` caps total concurrently requested CPUs (~48).
+executor: slurm
+jobs: 24
+resources: [slots=48]
+default-resources:
+  - slurm_partition=regular
+  - mem_mb=4000
+  - runtime=120
+  - slots=1
+latency-wait: 60
+rerun-incomplete: true
+keep-going: true
+printshellcmds: true
+show-failed-logs: true
