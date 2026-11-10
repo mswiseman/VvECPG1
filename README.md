@@ -27,7 +27,7 @@ bash run.sh check-data
 
 The expected archive size and SHA-256 are pinned in [data_archive.json](data_archive.json). Restoration checks the ZIP and all 2,301 archived input/source files, extracts only `inputs/`, `reference_results/` and `source_addenda/`, and preserves repository code and existing different files. Those data directories and generated `results/` are ignored by Git. The full archive contains supporting provenance beyond the minimum inputs for a single analysis; these files do not need to be committed to the repository. Allow approximately 1 GB for the data plus working space.
 
-No public repository/release URL has been assigned. **For publication:** upload the contents of this small folder as the repository, and attach the existing 840-MB full ZIP and its `.sha256` sidecar to a GitHub release. Add the release link here and in `data_archive.json`, and add the manuscript citation/DOI when assigned. Git or GitHub Desktop preserves the supplied executable permissions. No upload has been performed by this packaging task.
+No public repository/release URL has been assigned. **For publication:** upload the contents of this small folder as the repository, and attach the existing 840-MB full ZIP and its `.sha256` sidecar to a GitHub release. Add the release link here and in `data_archive.json`, and add the manuscript citation/DOI when assigned. 
 
 ## Reproduce the manuscript analyses
 
