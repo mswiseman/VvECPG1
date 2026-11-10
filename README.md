@@ -2,7 +2,7 @@
 
 Code for the grapevine *VvECPG1* RNA-seq, tissue atlas, hormone-response, co-expression, functional-context and protein-homology results. Focal locus: **Vitvi05_01chr01g05750**, PN40024 T2T v5.1. Original code is licensed under [MIT](LICENSE).
 
-This repository contains the manuscript analysis code and its dependencies. Superseded exploratory networks, duplicate plotting implementations, internal report generators and packaging history are excluded. The complete reproducibility ZIP retains the original inputs, checkpoints, database/version records and historical provenance separately.
+This repository contains the manuscript analysis code and its dependencies. 
 
 ## Install and check
 
